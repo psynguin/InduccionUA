@@ -1,9 +1,17 @@
-# Preface {.unnumbered}
+# Introducción {.unnumbered}
 
-This is a Quarto book.
+El objetivo de este libro es explorar temas sobre 3 categorías importantes que todo analista de la unidad de análisis debería conocer. Los macro-capítulos del libro que se pueden apreciar en la tabla de contenidos al lado izquierdo reflejan esta estructura.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Las 3 categorías con sus respectivas descripciones son:
 
-```{r}
-1 + 1
-```
+-   **Teoría**: incluye conceptos matemáticos, estadísticos y psicométricos que permiten entender la creación y lectura de los resultados de un estudio psicométrico.
+
+-   **Código**: incluye conceptos universales de la programación; junto con una bajada a la programación en R y ciertos paquetes específicos que son utilizados por la unidad para realizar sus quehaceres.
+
+-   **PAD**: incluye protocolos/lineamientos/acuerdos de funcionamiento, código, trato con contrapartes y gobernanza de datos que rigen la unidad.
+
+**IMPORTANTE:**
+
+**Este libro fue realizado de manera autónoma en base a mi experiencia individual en la unidad, con fines de sistematizar lo que yo veo y mejorar mis habilidades pedagógicas. En ningún caso refleja una postura oficial ni de la PAD ni de MIDE-UC.**
+
+**Salvo que se active un procedimiento de revisión, edición y publicación de un libro oficial este estatus y aviso se mantendrá en el libro.**

@@ -1,7 +1,5 @@
 # Agradecimientos {.unnumbered}
 
-In summary, this book has no content whatsoever.
+A mis compañeros de unidad. Sin ustedes y las extensas conversaciones que hemos mantenido sobre nuestro trabajo, no habría sido posible alcanzar este nivel de sistematización. Su aporte, reflexiones y compromiso han sido fundamentales en este proceso.
 
-```{r}
-1 + 1
-```
+A mis jefes. Sin su vasta experiencia y conocimiento, no habría logrado desarrollar una mirada tan completa y crítica sobre la psicometría. Gracias por siempre impulsarnos y velar por que no descuidemos nuestra formación en los temas que nos competen. No solo lo expresan en palabras, sino que lo respaldan con acciones concretas, como brindarnos tiempo para la autoformación, lo que hizo posible la redacción de este libro.

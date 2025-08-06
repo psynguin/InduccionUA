@@ -8,8 +8,8 @@ execute:
   output: asis
 
 book:
-  title: "PAD"
-  subtitle: "Unidad de Psicometría y Análisis de Datos - Mide UC"
+  title: "Inducción"
+  subtitle: "Unidad de Psicometría y Análisis de Datos (PAD) - Mide UC"
   author: "Tom Baladrón"
   date: "7/17/2025"
   sidebar:
@@ -17,13 +17,12 @@ book:
     style: floating
     collapse-level: 1
     border: true
-  repo-url: https://github.com/psynguin
-  cover-image: cover.png
+  repo-url: https://github.com/psynguin/InduccionUA
   page-footer: 
     border: false
     background: light
     left: | 
-      PAD - Inducción y sistematización de procedimientos/conocimientos fue escrito por Tom Baladrón
+      Libro escrito por Tom Baladrón
     right: |
       Este libro fue construido con <a href="https://quarto.org/">Quarto</a>.
 
@@ -33,7 +32,9 @@ book:
     - 00.2. agradecimientos.qmd
     - part: Módulo teórico
       chapters: 
-        - 1.01. Matematico.qmd
+        - 1.01.1 Matematico.qmd
+        - 1.01.2 Matematico2.qmd
+        - 1.01.3 Matematico3.qmd
         - 1.02. Estandares.qmd
         - 1.03. Psicometría.qmd
         - 1.04. Teoría Clásica.qmd
@@ -41,7 +42,7 @@ book:
     - part: Módulo código
       chapters: 
         - 2.01. R base.qmd
-    - part: Módulo UA
+    - part: Módulo PAD
       chapters: 
         - 3.01. Introduction.qmd
     - references.qmd

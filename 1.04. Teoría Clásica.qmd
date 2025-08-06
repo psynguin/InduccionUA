@@ -1,7 +1,8 @@
 ---
 title: "Teoría Clasica de Test (TCT)"
-subtitle: "Módulo teórico"
 ---
+
+## Teoría Clásica de Test
 
 La teoría clásica de test es la forma más sencilla de analizar un test que considera la información entregada por el test como un todo. En otras palabras, utiliza el puntaje observado como una estimación suficiente de la habilidad del individuo.
 
@@ -17,13 +18,13 @@ Donde:
 -   $V_i$ = Puntaje verdadero.
 -   $E_i$ = Error de medición.
 
-## **Supuestos de la TCT**
+## **Supuestos**
 
 Primero es importante comprender **qué un supuesto** en una teoría con un sustrato matemático.
 
 -   **Supuesto**: aquellas cosas que debemos dar por ciertas si queremos perseguir ese camino de demostración, en otras palabras, son **planteamientos sin demostración que quien utiliza la teoría debe dar por hecho**.
 
-**Supuestos TCT:**
+## Supuestos **de la TCT**
 
 1.  La puntuación verdadera ($V_i$) es la esperanza matemática de la puntuación empírica.
 

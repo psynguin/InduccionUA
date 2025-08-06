@@ -1,0 +1,34 @@
+---
+title: "Recuerdo matemático: Sumatoria"
+subtitle: "Propiedades de sumatoria"
+---
+
+## Notación básica de la sumatoria
+
+A pesar de que no es necesario, por claridad visual se encerrarán los elementos que están dentro de la sumatoria con (). $$
+  \sum\limits_{i = 1}^{n} (x_i) = x_1 + x_2 + x_3 + \text{ }...\text{ } + x_n
+$$
+
+## Propiedades básicas
+
+1.  **La suma de una constante es igual a la constante multiplicada por la cantidad total de elementos.** $$
+      \sum\limits_{i = m}^{n} (c) = (n - m + 1) * c
+    $$
+
+    -   (n - m + 1) es una forma matemática de calcular la cantidad de elementos ya que ambos elementos deben ser incluidos en la sumatoria.
+
+    -   Entonces si es desde 2 a 5, son 4 elementos: 2, 3, 4, 5 o (5 - 2 + 1).
+
+2.  **Cualquier constante puede salir de la sumatoria.** $$
+      \sum\limits_{i = 1}^{n} (c*x_i) = c * \sum\limits_{i = 1}^{n} (x_i)
+    $$
+
+3.  **Suma/resta de variables.** $$
+      \sum\limits_{i = 1}^{n} (x_i \pm y_i) = \sum\limits_{i = 1}^{n} (x_i) \pm \sum\limits_{i = 1}^{n} (y_i)
+    $$
+
+4.  **Suma/resta de una constante y una variable.** $$
+      \sum\limits_{i = m}^{n} (c \pm x_i) = (n-m+1)*c \pm \sum\limits_{i = 1}^{n} (y_i)
+    $$
+
+    -   Donde (n - m + 1) es la cantidad de elementos de la sumatoria.

@@ -1,24 +1,31 @@
 ---
-title: "Recuerdo matemático"
+title: "Recuerdo matemático: Medidas básicas"
+subtitle: "Medidas de tendencia central y dispersión"
 ---
 
 ## MEDIDAS DE TENDENCIA CENTRAL
 
 ### Media
 
-La **media** se obtiene sumando todos los valores de un conjunto de datos y dividiendo esta suma entre el número total de valores.
+La **media o promedio** se obtiene sumando todos los valores de un conjunto de datos y dividiendo esta suma entre el número total de valores.
 
 $$
-Media: \bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}
+\bar{x} = \frac{\sum\limits_{i=1}^{n} x_i}{n}
 $$
 
 Donde:
 
--   $\bar{x}$ = promedio.
+-   $\bar{x}$ = media.
 
--   $x_i$ = puntaje del elemento i.
+-   $x_i$ = valor del elemento i.
 
 -   $n$ = cantidad total de elementos.
+
+::: callout-tip
+Datos: 1, 3, 5, 7, 4, 6, 4
+
+promedio: $\frac{1+3+5+7+4+6+4}{7}$
+:::
 
 ### Mediana
 
@@ -67,7 +74,7 @@ Donde:
 
 ### Rango inter-cuartil
 
-El **rango inter-cuartil** (**IQR**) mide la dispersión de los datos en el rango entre el primer cuartil (Q1) y el tercer cuartil (Q3). Es útil para identificar la dispersión sin ser afectado por valores extremos.
+El **rango inter-cuartil** (**IQR**) mide la dispersión de los datos considerando el rango entre el primer cuartil (Q1) y el tercer cuartil (Q3). Es útil para identificar la dispersión sin ser afectado por outliers en los extremos.
 
 $$
 \text{IQR} = Q_{3} - Q_{1}
@@ -83,7 +90,7 @@ Donde:
 La **suma de cuadrados** (**SS**) es una medida que calcula la suma de las diferencias al cuadrado entre cada valor y la media. Es un componente esencial para calcular la varianza y la desviación estándar.
 
 $$
-\text{SS} = \sum_{i=1}^{n} (x_i - \bar{x})^2
+\text{SS} = \sum_\limits{i=1}^{n} (x_i - \bar{x})^2
 $$
 
 Donde:
@@ -95,20 +102,20 @@ Donde:
 
 La **varianza** (**σ2**) mide la dispersión o variabilidad de un conjunto de datos respecto a su media. Indica cuánto se desvían los datos individuales de la media en promedio.
 
-+-------------------------------------------------------+------------------------------------------+
-| En función del promedio ($\bar{x}$) :                 | En función de la suma de cuadrados (SS): |
-+=======================================================+:=========================================+
-| $$                                                    | $$                                       |
-| \sigma^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n} | \sigma^2 = \frac{\text{SS}}{n}           |
-| $$                                                    | $$                                       |
-+-------------------------------------------------------+------------------------------------------+
-| Donde:                                                | Donde:                                   |
-|                                                       |                                          |
-| -   $\sigma^2$ = varianza.                            | -   $\text{SS}$ = suma de cuadrados.     |
-| -   $x_i$ = valores de los datos.                     | -   $n$ = número total de elementos.     |
-| -   $\bar{x}$ = media de los datos.                   |                                          |
-| -   $n$ = número total de elementos.                  |                                          |
-+-------------------------------------------------------+------------------------------------------+
++--------------------------------------------------------------+------------------------------------------+
+| En función del promedio ($\bar{x}$) :                        | En función de la suma de cuadrados (SS): |
++==============================================================+:=========================================+
+| $$                                                           | $$                                       |
+| \sigma^2 = \frac{\sum\limits_{i=1}^{n} (x_i - \bar{x})^2}{n} | \sigma^2 = \frac{\text{SS}}{n}           |
+| $$                                                           | $$                                       |
++--------------------------------------------------------------+------------------------------------------+
+| Donde:                                                       | Donde:                                   |
+|                                                              |                                          |
+| -   $\sigma^2$ = varianza.                                   | -   $\text{SS}$ = suma de cuadrados.     |
+| -   $x_i$ = valores de los datos.                            | -   $n$ = número total de elementos.     |
+| -   $\bar{x}$ = media de los datos.                          |                                          |
+| -   $n$ = número total de elementos.                         |                                          |
++--------------------------------------------------------------+------------------------------------------+
 
 **Caso especial** de varianza para **variables dicotómicas** donde se puede conceptualizar uno de los valores como “acierto” y el otro como “fracaso”.
 
@@ -151,7 +158,7 @@ La **covarianza** es una medida estadística que indica la dirección de la rela
 Para dos variables X e Y:
 
 $$
-\text{Cov}(X, Y) = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar{X}) (Y_i - \bar{Y})
+\text{Cov}(X, Y) = \frac{\sum_\limits{i=1}^{n} (X_i - \bar{X}) (Y_i - \bar{Y})}{n-1} 
 $$
 
 Donde:
@@ -159,3 +166,5 @@ Donde:
 -   $X_i$ e $Y_i$ son los valores individuales de las variables X e Y.
 -   $\bar{X}$ e $\bar{Y}$ son las medias de las variables X e Y.
 -   $n$ es el número de pares de datos.
+
+La covarianza tiene el problema de que es dependiente de los valores (escalas de unidades) de las variables X e Y. Por eso para establecer relaciones lineales casi nunca se utiliza sola, sino una versión normalizada o modificada de la covarianza, por ej. la correlación de Pearson.

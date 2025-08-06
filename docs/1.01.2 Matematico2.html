@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tom Baladrón">
-<meta name="dcterms.date" content="2025-07-17">
 
-<title>Inducción</title>
+<title>2&nbsp; Recuerdo matemático: Sumatoria – Inducción</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./00.1. sobre el autor.html" rel="next">
+<link href="./1.01.3 Matematico3.html" rel="next">
+<link href="./1.01.1 Matematico.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -83,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introducción</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./1.01.1 Matematico.html">Módulo teórico</a></li><li class="breadcrumb-item"><a href="./1.01.2 Matematico2.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Recuerdo matemático: Sumatoria</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -113,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introducción</span></a>
   </div>
 </li>
@@ -131,29 +159,29 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Módulo teórico</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./1.01.1 Matematico.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Recuerdo matemático 1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Recuerdo matemático: Medidas básicas</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1.01.2 Matematico2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Recuerdo matemático</span></span></a>
+  <a href="./1.01.2 Matematico2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Recuerdo matemático: Sumatoria</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./1.01.3 Matematico3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Recuerdo matemático</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Recuerdo matemático: Matrices</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -232,36 +260,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#notación-básica-de-la-sumatoria" id="toc-notación-básica-de-la-sumatoria" class="nav-link active" data-scroll-target="#notación-básica-de-la-sumatoria"><span class="header-section-number">2.1</span> Notación básica de la sumatoria</a></li>
+  <li><a href="#propiedades-básicas" id="toc-propiedades-básicas" class="nav-link" data-scroll-target="#propiedades-básicas"><span class="header-section-number">2.2</span> Propiedades básicas</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./1.01.1 Matematico.html">Módulo teórico</a></li><li class="breadcrumb-item"><a href="./1.01.2 Matematico2.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Recuerdo matemático: Sumatoria</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Inducción</h1>
-<p class="subtitle lead">Unidad de Psicometría y Análisis de Datos (PAD) - Mide UC</p>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Recuerdo matemático: Sumatoria</span></h1>
+<p class="subtitle lead">Propiedades de sumatoria</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Tom Baladrón </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 17, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -271,18 +288,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introducción" class="level1 unnumbered">
-<h1 class="unnumbered">Introducción</h1>
-<p>El objetivo de este libro es explorar temas sobre 3 categorías importantes que todo analista de la unidad de análisis debería conocer. Los macro-capítulos del libro que se pueden apreciar en la tabla de contenidos al lado izquierdo reflejan esta estructura.</p>
-<p>Las 3 categorías con sus respectivas descripciones son:</p>
+<section id="notación-básica-de-la-sumatoria" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="notación-básica-de-la-sumatoria"><span class="header-section-number">2.1</span> Notación básica de la sumatoria</h2>
+<p>A pesar de que no es necesario, por claridad visual se encerrarán los elementos que están dentro de la sumatoria con (). <span class="math display">\[
+  \sum\limits_{i = 1}^{n} (x_i) = x_1 + x_2 + x_3 + \text{ }...\text{ } + x_n
+\]</span></p>
+</section>
+<section id="propiedades-básicas" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="propiedades-básicas"><span class="header-section-number">2.2</span> Propiedades básicas</h2>
+<ol type="1">
+<li><p><strong>La suma de una constante es igual a la constante multiplicada por la cantidad total de elementos.</strong> <span class="math display">\[
+  \sum\limits_{i = m}^{n} (c) = (n - m + 1) * c
+\]</span></p>
 <ul>
-<li><p><strong>Teoría</strong>: incluye conceptos matemáticos, estadísticos y psicométricos que permiten entender la creación y lectura de los resultados de un estudio psicométrico.</p></li>
-<li><p><strong>Código</strong>: incluye conceptos universales de la programación; junto con una bajada a la programación en R y ciertos paquetes específicos que son utilizados por la unidad para realizar sus quehaceres.</p></li>
-<li><p><strong>PAD</strong>: incluye protocolos/lineamientos/acuerdos de funcionamiento, código, trato con contrapartes y gobernanza de datos que rigen la unidad.</p></li>
-</ul>
-<p><strong>IMPORTANTE:</strong></p>
-<p><strong>Este libro fue realizado de manera autónoma en base a mi experiencia individual en la unidad, con fines de sistematizar lo que yo veo y mejorar mis habilidades pedagógicas. En ningún caso refleja una postura oficial ni de la PAD ni de MIDE-UC.</strong></p>
-<p><strong>Salvo que se active un procedimiento de revisión, edición y publicación de un libro oficial este estatus y aviso se mantendrá en el libro.</strong></p>
+<li><p>(n - m + 1) es una forma matemática de calcular la cantidad de elementos ya que ambos elementos deben ser incluidos en la sumatoria.</p></li>
+<li><p>Entonces si es desde 2 a 5, son 4 elementos: 2, 3, 4, 5 o (5 - 2 + 1).</p></li>
+</ul></li>
+<li><p><strong>Cualquier constante puede salir de la sumatoria.</strong> <span class="math display">\[
+  \sum\limits_{i = 1}^{n} (c*x_i) = c * \sum\limits_{i = 1}^{n} (x_i)
+\]</span></p></li>
+<li><p><strong>Suma/resta de variables.</strong> <span class="math display">\[
+  \sum\limits_{i = 1}^{n} (x_i \pm y_i) = \sum\limits_{i = 1}^{n} (x_i) \pm \sum\limits_{i = 1}^{n} (y_i)
+\]</span></p></li>
+<li><p><strong>Suma/resta de una constante y una variable.</strong> <span class="math display">\[
+  \sum\limits_{i = m}^{n} (c \pm x_i) = (n-m+1)*c \pm \sum\limits_{i = 1}^{n} (y_i)
+\]</span></p>
+<ul>
+<li>Donde (n - m + 1) es la cantidad de elementos de la sumatoria.</li>
+</ul></li>
+</ol>
 
 
 </section>
@@ -689,10 +723,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./1.01.1 Matematico.html" class="pagination-link" aria-label="Recuerdo matemático: Medidas básicas">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Recuerdo matemático: Medidas básicas</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./00.1. sobre el autor.html" class="pagination-link" aria-label="Sobre el autor">
-        <span class="nav-page-text">Sobre el autor</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./1.01.3 Matematico3.html" class="pagination-link" aria-label="Recuerdo matemático: Matrices">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Recuerdo matemático: Matrices</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

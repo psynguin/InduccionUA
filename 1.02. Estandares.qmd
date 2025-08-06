@@ -10,7 +10,7 @@ number-depth: 1
 
 La validez refiere al grado en que la evidencia y teoría apoyan las interpretaciones y usos que se quieren dar a un test particular.
 
-### ESTÁNDARES DE VALIDEZ
+### 1. ESTÁNDARES DE VALIDEZ
 
 Los estándares para pruebas educativas y psicológicas es un documento generado por la APA que establece algunas directrices mínimas para establecer o revisar críticamente la validez de un instrumento. En la siguiente sección se presentan los 25 estándares de validez destacando algunos que resultan particularmente importantes para el que-hacer de la unidad de análisis.
 
@@ -80,7 +80,7 @@ La confiabilidad es una propiedad de los puntajes del instrumento que indica el 
 2.  Lo anterior implica que el uso de un puntaje no puede ser válido si no es confiable.
 3.  Un puntaje puede ser confiable, pero no válido para determinado uso.
 
-### ESTÁNDARES DE CONFIABILIDAD
+### 2. ESTÁNDARES DE CONFIABILIDAD
 
 -   **Estándar 2.0:** **Se debe proporcionar evidencia apropiada de confiabilidad/precisión para la interpretación de cada uso previsto de los puntajes.**
 
@@ -129,11 +129,11 @@ La confiabilidad es una propiedad de los puntajes del instrumento que indica el 
 
 Imparcialidad es la característica de que una medición esté libre de influencias de variables que son ajenas o externas al constructo que se pretende medir.
 
-### ESTÁNDARES DE IMPARCIALIDAD
+### 3. ESTÁNDARES DE IMPARCIALIDAD
 
 **Estándar 3.0**: Todos los pasos en el proceso de evaluación, incluyendo diseño, validación, desarrollo, administración y procedimientos de calificación de la prueba, deben diseñarse de tal manera que minimicen la varianza irrelevante de constructo y promuevan las interpretaciones válidas de los puntajes para los usos previstos para todos los individuos examinados en la población prevista.
 
-### Diseño,desarrollo, administración y procedimientos de calificación de las pruebas que minimizan los obstáculos a interpretaciones válidas de los puntajes para la variedad más amplia posible de individuos y subgrupos relevantes
+### Diseño, desarrollo, administración y procedimientos de calificación de las pruebas que minimizan los obstáculos a interpretaciones válidas de los puntajes para la variedad más amplia posible de individuos y subgrupos relevantes
 
 **Estándar 3.1**: Los responsables del desarrollo, la revisión y la administración de la prueba deben diseñar todos los pasos del proceso de evaluación para promover interpretaciones válidas de los puntajes para los usos previstos de los puntajes para la variedad más amplia posible de individuos y subgrupos relevantes en la población prevista.
 

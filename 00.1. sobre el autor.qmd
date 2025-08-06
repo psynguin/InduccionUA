@@ -1,9 +1,7 @@
 # Sobre el autor {.unnumbered}
 
-This is a book created from markdown and executable code.
+Soy Tom Baladrón, psicólogo clínico y analista de la unidad hace \~ 1 año. Escribí este libro con la intención de sistematizar mis conocimientos y apuntes sobre mi quehacer en la unidad agregándole todos los aprendizajes adicionales a la formación explícita que he recibido por mis pares y jefaturas. Por rasgos de personalidad muy propios no me gusta realizar procedimientos sin entender el trasfondo de lo que se está haciendo y eso me ha llevado a estudiar diversos contenidos de manera obsesiva que he sistematizado en este libro.
 
-See @knuth84 for additional discussion of literate programming.
+Trabajo principalmente en R y diversos proyectos en los que he trabajado me han entregado conocimientos de Quarto suficientes para poder publicar este libro.
 
-```{r}
-1 + 1
-```
+Si quieres saber más sobre mi curriculum, proyectos, habilidades o intereses puedes revisar mi [página web personal](https://psynguin.github.io/).
