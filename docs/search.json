@@ -1,0 +1,504 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PAD",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "00.1. sobre el autor.html",
+    "href": "00.1. sobre el autor.html",
+    "title": "Sobre el autor",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n[1] 2\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Sobre el autor"
+    ]
+  },
+  {
+    "objectID": "00.2. agradecimientos.html",
+    "href": "00.2. agradecimientos.html",
+    "title": "Agradecimientos",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n[1] 2",
+    "crumbs": [
+      "Agradecimientos"
+    ]
+  },
+  {
+    "objectID": "1.01. Matematico.html",
+    "href": "1.01. Matematico.html",
+    "title": "1  Recuerdo matemático",
+    "section": "",
+    "text": "1.1 MEDIDAS DE TENDENCIA CENTRAL",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Recuerdo matemático</span>"
+    ]
+  },
+  {
+    "objectID": "1.01. Matematico.html#medidas-de-tendencia-central",
+    "href": "1.01. Matematico.html#medidas-de-tendencia-central",
+    "title": "1  Recuerdo matemático",
+    "section": "",
+    "text": "Media\nLa media se obtiene sumando todos los valores de un conjunto de datos y dividiendo esta suma entre el número total de valores.\n\\[\nMedia: \\bar{x} = \\frac{\\sum_{i=1}^{n} x_i}{n}\n\\]\nDonde:\n\n\\(\\bar{x}\\) = promedio.\n\\(x_i\\) = puntaje del elemento i.\n\\(n\\) = cantidad total de elementos.\n\n\n\nMediana\nLa mediana es el valor que se encuentra en el medio de un conjunto de datos ordenados. Si el número de datos es impar, la mediana es el valor central. Si es par, la mediana es el promedio de los dos valores centrales. La mediana es útil porque no se ve afectada por valores atípicos.\n\\[\nMediana:\\begin{cases}\n\\tilde{x} = x_{(\\frac{n+1}{2})} & \\text{si } n \\text{ es impar} \\\\\n\\tilde{x} = \\frac{x_{(\\frac{n}{2})} \\ + \\ x_{(\\frac{n}{2} + 1)}}{2} & \\text{si } n \\text{ es par}\n\\end{cases}\n\\]\nDonde:\n\n\\(\\tilde{x}\\) = mediana.\n\\(n\\) = cantidad total de elementos.\n\\(()\\) = implica buscar el elemento en la posición señalada dentro del paréntesis.\n\n\n\nModa\nLa moda es el valor o valores que aparecen con mayor frecuencia en un conjunto de datos.\n\\[\n\\text{Moda: } x_{\\text{moda}} = \\{x_i: \\text{frecuencia}(x_i) \\text{ es máxima}\\}\n\\]\nDonde:\n\n\\(X_{\\text{moda}}\\) = moda.\n\\(\\text{{}}\\) = símbolo para una condición que se debe cumplir.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Recuerdo matemático</span>"
+    ]
+  },
+  {
+    "objectID": "1.01. Matematico.html#medidas-de-dispersión",
+    "href": "1.01. Matematico.html#medidas-de-dispersión",
+    "title": "1  Recuerdo matemático",
+    "section": "1.2 MEDIDAS DE DISPERSIÓN",
+    "text": "1.2 MEDIDAS DE DISPERSIÓN\n\nRango\nEl rango mide la diferencia entre el valor máximo y el valor mínimo en un conjunto de datos. Es una medida simple de la dispersión.\n\\[\n\\text{Rango} = x_{\\text{max}} - x_{\\text{min}}\n\\]\nDonde:\n\n\\(x_{\\text{max}}\\) = valor máximo.\n\\(x_{\\text{min}}\\) = valor mínimo.\n\n\n\nRango inter-cuartil\nEl rango inter-cuartil (IQR) mide la dispersión de los datos en el rango entre el primer cuartil (Q1) y el tercer cuartil (Q3). Es útil para identificar la dispersión sin ser afectado por valores extremos.\n\\[\n\\text{IQR} = Q_{3} - Q_{1}\n\\]\nDonde:\n\n\\(Q_{1}\\) = primer cuartil (25% de los datos están por debajo).\n\\(Q_{3}\\) = tercer cuartil (75% de los datos están por debajo).\n\n\n\nSuma de cuadrados\nLa suma de cuadrados (SS) es una medida que calcula la suma de las diferencias al cuadrado entre cada valor y la media. Es un componente esencial para calcular la varianza y la desviación estándar.\n\\[\n\\text{SS} = \\sum_{i=1}^{n} (x_i - \\bar{x})^2\n\\]\nDonde:\n\n\\(x_i\\) = valores de los datos.\n\\(\\bar{x}\\) = media de los datos.\n\n\n\nVarianza\nLa varianza (σ2) mide la dispersión o variabilidad de un conjunto de datos respecto a su media. Indica cuánto se desvían los datos individuales de la media en promedio.\n\n\n\n\n\n\n\nEn función del promedio (\\(\\bar{x}\\)) :\nEn función de la suma de cuadrados (SS):\n\n\n\n\n\\[\n\\sigma^2 = \\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}{n}\n\\]\n\\[\n\\sigma^2 = \\frac{\\text{SS}}{n}\n\\]\n\n\nDonde:\n\n\\(\\sigma^2\\) = varianza.\n\\(x_i\\) = valores de los datos.\n\\(\\bar{x}\\) = media de los datos.\n\\(n\\) = número total de elementos.\n\nDonde:\n\n\\(\\text{SS}\\) = suma de cuadrados.\n\\(n\\) = número total de elementos.\n\n\n\n\nCaso especial de varianza para variables dicotómicas donde se puede conceptualizar uno de los valores como “acierto” y el otro como “fracaso”.\n\\[\n\\sigma^2 = p(1-p)\n\\]\nDonde:\n\n\\(\\sigma^2\\) = varianza.\n\\(p\\) = probabilidad de éxito (ej. proporción de respuestas correctas).\n\n\n\nDesviación estándar\nLa desviación estándar ( \\(\\sigma\\) ) es la raíz cuadrada de la varianza. Proporciona una medida de dispersión que está en las mismas unidades que los datos originales, facilitando la interpretación.\n\n\n\n\n\n\n\n\nEn f(x) del promedio\nEn f(x) de la varianza\nEn f(x) de la suma de cuadrados\n\n\n\n\n\\[\n\\sigma = \\sqrt{\\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}{n}}\n\\]\n\\[\n\\sigma = \\sqrt{\\sigma^2}\n\\]\n\\[\n\\sigma = \\sqrt{\\frac{\\text{SS}}{n}}\n\\]\n\n\nDonde:\n\n\\(\\sigma\\) = desviación estándar.\n\\(x_i\\) = valores de los datos.\n\\(\\bar{x}\\) = media de los datos.\n\\(n\\) = número total de elementos.\n\nDonde:\n\n\\(\\sigma\\) = desviación estándar.\n\\(\\sigma^2\\) = varianza.\n\nDonde:\n\n\\(\\text{SS}\\) = suma de cuadrados.\n\\(n\\) = número total de elementos.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Recuerdo matemático</span>"
+    ]
+  },
+  {
+    "objectID": "1.01. Matematico.html#covarianza",
+    "href": "1.01. Matematico.html#covarianza",
+    "title": "1  Recuerdo matemático",
+    "section": "1.3 COVARIANZA",
+    "text": "1.3 COVARIANZA\nLa covarianza es una medida estadística que indica la dirección de la relación lineal entre dos variables aleatorias. En otras palabras, muestra cómo dos variables cambian juntas.\n\nCovarianza positiva: Las dos variables tienden a aumentar y disminuir juntas.\nCovarianza negativa: Una variable tiende a aumentar mientras que la otra tiende a disminuir.\nCovarianza cercana a cero: No hay una relación lineal clara entre las dos variables.\n\nPara dos variables X e Y:\n\\[\n\\text{Cov}(X, Y) = \\frac{1}{n-1} \\sum_{i=1}^{n} (X_i - \\bar{X}) (Y_i - \\bar{Y})\n\\]\nDonde:\n\n\\(X_i\\) e \\(Y_i\\) son los valores individuales de las variables X e Y.\n\\(\\bar{X}\\) e \\(\\bar{Y}\\) son las medias de las variables X e Y.\n\\(n\\) es el número de pares de datos.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Recuerdo matemático</span>"
+    ]
+  },
+  {
+    "objectID": "1.02. Estandares.html",
+    "href": "1.02. Estandares.html",
+    "title": "2  Estándares para pruebas educativas y psicológicas",
+    "section": "",
+    "text": "Fuente: American Educational Research Association. (2018). Estándares para pruebas educativas y psicológicas. American Educational Research Association.\n\nVALIDEZCONFIABILIDADIMPARCIALIDAD\n\n\nLa validez refiere al grado en que la evidencia y teoría apoyan las interpretaciones y usos que se quieren dar a un test particular.\n\nESTÁNDARES DE VALIDEZ\nLos estándares para pruebas educativas y psicológicas es un documento generado por la APA que establece algunas directrices mínimas para establecer o revisar críticamente la validez de un instrumento. En la siguiente sección se presentan los 25 estándares de validez destacando algunos que resultan particularmente importantes para el que-hacer de la unidad de análisis.\n\n\nEstablecimiento de usos e interpretaciones previstos\n\nEstándar 1.1: El desarrollador de la prueba debe establecer claramente cómo se tiene previsto que se interpreten y en consecuencia se utilicen los puntajes de la prueba. Las poblaciones para las que está prevista la prueba deben definirse claramente, y el constructo o los constructos que la prueba tiene por objeto evaluar deben describirse claramente.\nEstándar 1.2: Se debe presentar una razón fundamental para cada interpretación prevista de los puntajes de la prueba para un uso determinado, junto con un resumen de la evidencia y la teoría que inciden en la interpretación prevista.\nEstándar 1.3: Si la validez para alguna interpretación común o probable para un uso dado no se ha evaluado, o si dicha interpretación no es coherente con la evidencia disponible, ese hecho debe aclararse y se debe advertir enfáticamente a los posibles usuarios sobre hacer interpretaciones sin fundamento.\nEstándar 1.4: Si el puntaje de una prueba se interpreta para un uso determinado de una manera que no ha sido validada, corresponde al usuario justificar la nueva interpretación para ese uso, proporcionando una razón fundamental y reuniendo nueva evidencia, si fuera necesario.\nEstándar 1.5: Cuando se indica claramente o se deja implícito que una interpretación recomendada de los puntajes de la prueba para un determinado uso dará un resultado específico, se debe presentar el fundamento para prever ese resultado, junto con la evidencia relevante.\nEstándar 1.6: Cuando el uso de una prueba se recomienda aduciéndose que la prueba o el programa de pruebas propiamente dicho dará por resultado algún beneficio indirecto, además de la utilidad de la información de la interpretación de los puntajes de la prueba propiamente dichos, quien hace la recomendación debe explicitar la razón fundamental para prever el beneficio indirecto. Deben proporcionarse los argumentos lógicos o teóricos y la evidencia empírica para el beneficio indirecto. Debe darse la debida importancia a cualquier conclusión contradictoria en la bibliografía científica, incluyendo conclusiones que sugieran resultados indirectos importantes que no sean los pronosticados\nEstándar 1.7: Si se afirma que el desempeño en una prueba, o una decisión tomada a partir de este, se ve esencialmente afectado por la práctica y la orientación, entonces se debe documentar la propensión del desempeño en la prueba a cambiar con estas formas de instrucción\n\n\n\nCuestiones respecto de las muestras y contextos utilizados en la validación\n\nEstándar 1.8: La composición de cualquier muestra de examinandos de la cual se obtiene evidencia de validación debe describirse con tanto detalle como sea práctico y aceptable, incluidas características sociodemográficas y de desarrollo relevantes\nEstándar 1.9: Cuando una validación se basa en parte en las opiniones o decisiones de jueces, observadores o calificadores expertos, se deben describir completamente los procedimientos para seleccionar a dichos expertos y para obtener los juicios o calificaciones. Deben presentarse las calificaciones y la experiencia de los jueces. La descripción de procedimientos debe incluir cualquier capacitación e instrucciones proporcionadas, debe indicar si los participantes llegaron a sus decisiones de manera independiente y debe reportar el nivel de acuerdo alcanzado. Si los participantes interactuaron entre sí o intercambiaron información, deben establecerse los procedimientos mediante los cuales pueden haber ejercido influencia entre ellos.\nEstándar 1.10: Cuando la evidencia de validación incluye análisis estadísticos de los resultados de la prueba, ya sean solos o junto con datos u otras variables, las condiciones en que se recopilaron los datos deben describirse con detalle suficiente para que los usuarios puedan juzgar la relevancia de las conclusiones estadísticas para las condiciones locales. Se debe prestar atención a cualquier característica de una recopilación de datos de validación que probablemente difiera de las condiciones de prueba operativas típicas y que podría plausiblemente influir en el desempeño en la prueba\n\n\n\nFormas específicas de evidencia de validación\n\n\n(a) Evidencia orientada al contenido\n\nEstándar 1.11: Cuando la razón fundamental para la interpretación de los puntajes de la prueba para un uso dado se basa en parte en lo apropiado del contenido de la prueba, los procedimientos seguidos en la especificación y generación del contenido de la prueba deben describirse y justificarse con referencia a la población que se prevé evaluar y al constructo que la prueba tiene por objeto medir o el dominio que tiene por objeto representar. Si la definición del contenido muestreado incorpora criterios como la importancia, frecuencia o criticidad, estos criterios también deben explicarse y justificarse con claridad.\n\n\n\n(b) Evidencia respecto de los procesos cognitivos\n\nEstándar 1.12: Si la razón fundamental para la interpretación de los puntajes para un uso dado depende de premisas sobre los procesos psicológicos u operaciones cognitivas de los examinandos, debe proporcionarse la evidencia teórica o empírica que respalde esas premisas. Cuando enunciados sobre los procesos empleados por observadores o calificadores sean parte del argumento de validez, debe proporcionarse información similar\n\n\n\n(c) Evidencia respecto de la estructura interna\n\nEstándar 1.13: Si la razón fundamental de la interpretación de los puntajes de una prueba para un uso dado depende de premisas sobre las relaciones entre ítems de la prueba o entre partes de la prueba, debe proporcionarse evidencia sobre la estructura interna de la prueba\nEstándar 1.14: Cuando se sugiere la interpretación de sub-puntajes, diferencias de puntajes o perfiles, debe proporcionarse la razón fundamental y la evidencia relevante que respalde dicha interpretación. Cuando se desarrollan puntajes compuestos, se deben dar la base y la razón fundamental para llegar a los valores compuestos\nEstándar 1.15: Cuando se sugiere la interpretación del desempeño en ítems específicos, o pequeños subconjuntos de ítems, debe proporcionarse la razón fundamental que respalde dicha interpretación. Cuando la interpretación de respuestas a ítems individuales es probable pero no recomendada por el desarrollador, se debe advertir al usuario de no hacer dichas interpretaciones.\n\n\n\n(d) Evidencia respecto de las relaciones con constructos relacionados conceptualmente\n\nEstándar 1.16: Cuando la evidencia de validación incluye análisis empíricos de respuestas a ítems de la prueba junto con datos sobre otras variables, debe proporcionarse la razón fundamental para seleccionar las variables adicionales. Cuando sea apropiado y viable, debe presentarse o citarse la evidencia concerniente a constructos representados por otras variables, así como sus propiedades técnicas. Debe prestarse atención a cualquier fuente probable de dependencia (o falta de independencia) entre variables distintas de las dependencias entres los constructos que representan.\n\n\n\n(e) Evidencia respecto de las relaciones con criterios\n\nEstándar 1.17: Cuando la validación se basa en evidencia de que los puntajes de la prueba están relacionados con una o más variables de criterios, debe reportarse información sobre la pertinencia y la calidad técnica de los criterios\nEstándar 1.18: Cuando se asevera que un determinado nivel de desempeño en la prueba predice el desempeño adecuado o inadecuado del criterio, se debe proporcionar información sobre los niveles de desempeño del criterio asociados con niveles dados de puntajes de la prueba\nEstándar 1.19: Si se usan puntajes de la prueba junto con otras variables para predecir algún resultado o criterio, los análisis basados en modelos estadísticos de la relación predictor-criterio deben incluir esas variables relevantes adicionales junto con los puntajes de la prueba.\nEstándar 1.20: Cuando las medidas del tamaño del efecto (p. ej., correlaciones entre puntajes de la prueba y medidas de criterios, diferencias de puntajes medios estandarizados de la prueba entre subgrupos) se usan para obtener inferencias que van más allá de describir la muestra o las muestras sobre las que se han recopilado datos, deben reportarse índices del grado de incertidumbre asociado con estas medidas (p. ej., errores estándares, intervalos de confianza o pruebas de significación).\nEstándar 1.21: Cuando se realizan ajustes estadísticos, como aquellos para restricción de rango o atenuación, se deben reportar tanto los coeficientes ajustados como los no ajustados, así como el procedimiento específico utilizado y todas las estadísticas utilizadas en el ajuste. Las estimaciones de la relación constructo-criterio que eliminan los efectos del error de medición en la prueba deben reportarse claramente como estimaciones ajustadas.\nEstándar 1.22: Cuando se utiliza un metaanálisis como evidencia de la fortaleza de una relación prueba-criterio, las variables de prueba y criterio en la situación local deben ser comparables con las de los estudios resumidos. Si la investigación relevante incluye evidencia creíble de que cualquier otra característica específica de la aplicación de la prueba puede influir en la fortaleza de la relación prueba-criterio, debe reportarse la correspondencia entre esas características en la situación local y en el metaanálisis. Deben observarse explícitamente cualquier disparidad significativa que pudiera limitar la aplicabilidad de las conclusiones del metaanálisis a la situación local.\nEstándar 1.23: Cualquier evidencia meta-analítica utilizada para respaldar una interpretación prevista de los puntajes de la prueba debe describirse claramente, incluidas las elecciones metodológicas en la identificación y codificación de estudios, corrección de artefactos y examen de potenciales variables moderadoras. Deben presentarse las suposiciones hechas en la corrección de artefactos como falta de confiabilidad del criterio y restricción de rango, y deben aclararse las consecuencias de esas suposiciones.\nEstándar 1.24: Si se recomienda una prueba para usar en la asignación de personas a tratamientos alternativos, y si los resultados de esos tratamientos pueden compararse razonablemente sobre un criterio en común, entonces, cuando sea viable, debe proporcionarse evidencia de respaldo de los resultados diferenciales.\n\n\n\n(f) Evidencia basada en consecuencias de las pruebas\n\nEstándar 1.25: Cuando surgen consecuencias imprevistas del uso de la prueba, debe intentarse investigar si dichas consecuencias surgen de la sensibilidad de la prueba a características distintas de las que tiene previsto evaluar o de que la prueba no logra representar completamente el constructo previsto.\n\n\n\n\nLa confiabilidad es una propiedad de los puntajes del instrumento que indica el grado de estabilidad, precisión o consistencia que manifiesta la medición de un atributo determinado.\nEn contextos educacionales un puntaje confiable suele cumplir las siguientes premisas:\n\nEl puntaje se encuentra poco afectado por error (es precisa).\nLos resultados del examinado no son demasiado sensibles a variaciones en el instrumento o proceso de medición (es replicable).\n\n\nConfiabilidad vs. validez\n\nLa confiabilidad es un estándar técnico (matemático, metodológico si se quiere) que es requisito para la validez.\nLo anterior implica que el uso de un puntaje no puede ser válido si no es confiable.\nUn puntaje puede ser confiable, pero no válido para determinado uso.\n\n\n\nESTÁNDARES DE CONFIABILIDAD\n\nEstándar 2.0: Se debe proporcionar evidencia apropiada de confiabilidad/precisión para la interpretación de cada uso previsto de los puntajes.\n\n\n\nEspecificaciones para replicaciones del procedimiento de evaluación\n\nEstándar 2.1: El rango de replicaciones sobre el que se evalúa la confiabilidad/precisión debe indicarse claramente, junto con una justificación para la elección de esta definición, dada la situación de evaluación.\nEstándar 2.2: La evidencia proporcionada para la confiabilidad/precisión de los puntajes debe ser coherente con el dominio de replicaciones asociadas con los procedimientos de evaluación, y con las interpretaciones previstas para uso de los puntajes de la prueba. Evaluación de la confiabilidad/precisión\nEstándar 2.3: Para cada puntaje total, sub-puntaje o combinación de puntajes que deba interpretarse, deben reportarse estimaciones de índices relevantes de confiabilidad/ precisión.\nEstándar 2.4: Cuando la interpretación de puntajes de una prueba destaca diferencias entre dos puntajes observados de un individuo o dos promedios de un grupo, deben proporcionarse datos de confiabilidad/precisión, incluyendo errores estándares, para dichas diferencias.\nEstándar 2.5: Los procedimientos de estimación de confiabilidad deben ser coherentes con la estructura de la prueba.\n\n\n\nCoeficientes de confiabilidad/generabilidad\n\nEstándar 2.6: Un coeficiente de confiabilidad o generabilidad (o error estándar) que aborda un tipo de variabilidad no debe interpretarse como intercambiable con índices que abordan otros tipos de variabilidad, a menos que sus definiciones de error de medida puedan considerarse equivalentes.\nEstándar 2.7: Cuando el juicio subjetivo entre en la calificación de la prueba, debe proporcionarse evidencia tanto de coherencia entre los evaluadores en la calificación como de coherencia dentro del individuo examinado en mediciones repetidas. Debe hacerse una distinción clara entre datos de confiabilidad basados en (a) paneles independientes de evaluadores que califican los mismos desempeños o productos, (b) un solo panel que califica desempeños sucesivos o nuevos productos, y (c) paneles independientes que califican desempeños sucesivos o nuevos productos.\n\n\n\nFactores que afectan la confiabilidad/precisión\n\nEstándar 2.8: Cuando las pruebas de respuesta construida se califican localmente, los datos de confiabilidad/ precisión deben reunirse y reportarse para la calificación local cuando hay disponibles muestras de tamaño adecuado.\nEstándar 2.9: Cuando una prueba está disponible en versiones largas y cortas, la evidencia de confiabilidad/ precisión debe reportarse para puntajes en cada versión, preferentemente basada en administraciones independientes de cada versión con muestras independientes de examinandos.\nEstándar 2.10: Cuando se permitan variaciones significativas en las pruebas o procedimientos de administración de pruebas, deben proporcionarse análisis de confiabilidad/precisión separados para puntajes producidos en cada variación importante si hay disponibles tamaños de la muestra adecuados.\nEstándar 2.11: Los editores de la prueba deben proporcionar estimaciones de confiabilidad/precisión tan pronto como sea viable para cada subgrupo relevante para el que se recomienda la prueba.\nEstándar 2.12: Si una prueba se propone para utilizarse en varios grados o en un rango de edades, y si se proporcionan normas separadas para cada grado o rango de edades, deben proporcionarse los datos de confiabilidad/precisión para cada edad o subgrupo de nivel de grado, no solo para todos los grados o edades combinados.\n\n\n\nErrores estándares de medida\n\nEstándar 2.13: El error estándar de medida, tanto general como condicional (si se reporta), debe proporcionarse en unidades de cada puntaje reportado.\nEstándar 2.14: Cuando sea posible y corresponda, los errores estándares de medida condicionales deben reportarse en varios niveles de puntajes a menos que exista evidencia de que el error estándar es constante entre los niveles de puntajes. Cuando se especifican puntajes de corte para selección o clasificación, los errores estándares de medida deben reportarse en la proximidad de cada puntaje de corte.\nEstándar 2.15: Cuando existe evidencia creíble para esperar que los errores estándares de medida condicionales o funciones de información de prueba difieran sustancialmente para varios subgrupos, debe realizarse una investigación del alcance y el impacto de esas diferencias y reportarse tan pronto como sea viable.\n\n\n\nCoherencia de decisiones\n\nEstándar 2.16: Cuando una prueba o combinación de medidas se utiliza para tomar decisiones de clasificación, deben proporcionarse estimaciones del porcentaje de examinandos que se clasificarían de la misma manera en dos replicaciones del procedimiento.\n\n\n\nConfiabilidad/precisión de medias de grupos\n\nEstándar 2.17: Cuando los puntajes promedio de la prueba para grupos son el centro de la interpretación propuesta de los resultados de la prueba, los grupos evaluados por lo general deben considerarse como una muestra de una población más grande, incluso si se evalúan todos los individuos examinados disponibles en el momento de la medición. En esos casos, debe reportarse el error estándar de la media de los grupos, porque refleja variabilidad debida al muestreo de individuos examinados, así como variabilidad debida a error de medida individual\nEstándar 2.18: Cuando la finalidad de la evaluación es medir el desempeño de grupos en lugar del de individuos, pueden asignarse aleatoriamente subconjuntos de ítems a diferentes submuestras de individuos examinados. Los datos se agregan entre submuestras y subconjuntos de ítems para obtener una medida del desempeño del grupo. Cuando se usan estos procedimientos para la evaluación de programas o descripciones de poblaciones, los análisis de confiabilidad/precisión deben tener en cuenta el esquema de muestreo.\n\n\n\nDocumentación de la confiabilidad/precisión\n\nEstándar 2.19: Cada método de cuantificación de la confiabilidad/precisión de puntajes debe describirse claramente y expresarse en términos de estadísticas apropiadas para el método. Deben reportarse los procedimientos de muestreo utilizados para seleccionar examinandos para análisis de confiabilidad/precisión y las estadísticas descriptivas sobre estas muestras, con sujeción a las obligaciones de privacidad cuando corresponda.\nEstándar 2.20: Si los coeficientes de confiabilidad se ajustan para restricción de rango o variabilidad, deben informarse el procedimiento de ajuste y los coeficientes tanto ajustados como no ajustados. Deben presentarse las desviaciones estándares del grupo efectivamente evaluado y de la población de destino, así como la justificación del ajuste.\n\n\n\n\nImparcialidad es la característica de que una medición esté libre de influencias de variables que son ajenas o externas al constructo que se pretende medir.\n\nESTÁNDARES DE IMPARCIALIDAD\nEstándar 3.0: Todos los pasos en el proceso de evaluación, incluyendo diseño, validación, desarrollo, administración y procedimientos de calificación de la prueba, deben diseñarse de tal manera que minimicen la varianza irrelevante de constructo y promuevan las interpretaciones válidas de los puntajes para los usos previstos para todos los individuos examinados en la población prevista.\n\n\nDiseño,desarrollo, administración y procedimientos de calificación de las pruebas que minimizan los obstáculos a interpretaciones válidas de los puntajes para la variedad más amplia posible de individuos y subgrupos relevantes\nEstándar 3.1: Los responsables del desarrollo, la revisión y la administración de la prueba deben diseñar todos los pasos del proceso de evaluación para promover interpretaciones válidas de los puntajes para los usos previstos de los puntajes para la variedad más amplia posible de individuos y subgrupos relevantes en la población prevista.\nEstándar 3.2: Los desarrolladores de la prueba son responsables de desarrollar pruebas que midan el constructo previsto y de minimizar el potencial de que las pruebas se vean afectadas por características irrelevantes del constructo, como características lingüísticas, comunicativas, cognitivas, culturales, físicas y otras.\nEstándar 3.3: Los responsables del desarrollo de la prueba deben incluir subgrupos relevantes en estudios de validez, confiabilidad/precisión y otros estudios preliminares utilizados cuando se construye la prueba.\nEstándar 3.4: Los examinandos deben recibir un trato comparable durante la administración y el proceso de calificación de la prueba.\nEstándar 3.5: Los desarrolladores de la prueba deben especificar y documentar disposiciones que se hayan hecho para la administración de la prueba y los procedimientos de calificación para eliminar obstáculos irrelevantes del constructo para todos los subgrupos relevantes en la población de examinandos.\n\n\nValidez de las interpretaciones de los puntajes de las pruebas para los usos previstos para la población prevista de individuos examinados\nEstándar 3.6: Cuando evidencia creíble indique que los puntajes de la prueba pueden diferir en significado para subgrupos relevantes de la población prevista de individuos examinados, los desarrolladores y/o usuarios de la prueba son responsables de examinar la evidencia de validación de las interpretaciones de los puntajes para los usos previstos para individuos de esos subgrupos. Las leyes aplicables pueden definir lo que constituye una diferencia significativa en los puntajes de los subgrupos y qué acciones se llevan a cabo en respuesta a dichas diferencias.\nEstándar 3.7: Cuando la evidencia de validación relacionada con criterios se utiliza como base para predicciones de desempeño futuro basadas en puntajes de la prueba y los tamaños de la muestra son suficientes, los desarrolladores y/o usuarios de la prueba son responsables de evaluar la posibilidad de predicción diferencial para subgrupos relevantes para los que existe evidencia previa o teoría que sugiera predicción diferencial.\nEstándar 3.8: Cuando las pruebas requieran la calificación de respuestas construidas, los desarrolladores y/o usuarios de la prueba deben reunir y reportar evidencia de la validez de las interpretaciones de puntajes para subgrupos relevantes en la población prevista de examinandos para los usos previstos de los puntajes de la prueba.\n\n\nAdecuaciones para eliminar obstáculos irrelevantes del constructo y respaldar interpretaciones válidas de puntajes para sus usos previstos\nEstándar 3.9: Los desarrolladores de la prueba y/o los usuarios de la prueba son responsables de desarrollar y proporcionar adecuaciones de la prueba, cuando corresponda y sea viable, para eliminar obstáculos irrelevantes del constructo que de otro modo interferirían con la capacidad de los individuos examinados de demostrar su situación respecto de los constructos de destino.\nEstándar 3.10: Cuando se permitan adecuaciones de la prueba, los desarrolladores de la prueba y/o usuarios de la prueba son responsables de documentar disposiciones estándares para usar la adecuación y para supervisar la implementación apropiada de la adecuación.\nEstándar 3.11: Cuando una prueba se cambia para eliminar obstáculos a la accesibilidad del constructo sometido a medición, los desarrolladores y/o usuarios de la prueba son responsables de obtener y documentar evidencia de la validez de las interpretaciones de los puntajes para los usos previstos de la prueba cambiada, cuando los tamaños de la muestra lo permitan\nEstándar 3.12: Cuando una prueba se traduce y adapta de un idioma a otro, los desarrolladores de la prueba y/o usuarios de la prueba son responsables de describir los métodos utilizados al establecer la adecuación de la adaptación y documentar la evidencia empírica y lógica para la validez de las interpretaciones de los puntajes de la prueba para el uso previsto.\nEstándar 3.13: Una prueba debe administrarse en el idioma que sea más relevante y apropiado para la finalidad de la prueba.\nEstándar 3.14: Cuando la prueba requiere el uso de un intérprete, el intérprete debe seguir procedimientos estandarizados y, en la medida en que sea viable, tener un nivel suficientemente bueno en el idioma y contenido de la prueba y la lengua nativa y la cultura del individuo examinado para traducir la prueba y los materiales de evaluación relacionados y explicar las respuestas de la prueba del individuo examinado, según sea necesario.\n\n\nProtecciones contra las interpretaciones inapropiadas de los puntajes para los usos previstos\nEstándar 3.15: Los desarrolladores y editores de la prueba que afirman que una prueba puede ser usada con individuos examinados de subgrupos específicos son responsables de proporcionar la información necesaria para respaldar interpretaciones apropiadas de puntajes de la prueba para sus usos previstos para individuos de estos subgrupos.\nEstándar 3.16: Cuando investigación creíble indique que los puntajes de la prueba para algunos subgrupos relevantes se ven diferencialmente afectados por características irrelevantes del constructo de la prueba o de los individuos examinados, cuando sea legalmente aceptable, los usuarios de la prueba deben utilizar la prueba solo para esos subgrupos para los que existe evidencia suficiente de validez para respaldar las interpretaciones de los puntajes para los usos previstos.\nEstándar 3.17: Cuando se informen públicamente puntajes agregados para subgrupos relevantes —por ejemplo, hombres y mujeres, individuos de diferente nivel socioeconómico, individuos que difieren en cuanto a raza/origen étnico, individuos con diferentes orientaciones sexuales, individuos con características lingüísticas y culturales diversas, individuos con discapacidades, niños pequeños o adultos mayores— los usuarios de la prueba son responsables de proporcionar evidencia de comparabilidad y de incluir declaraciones de advertencia cuando la investigación creíble o la teoría indique que es posible que los puntajes de la prueba no tengan significado comparable entre estos subgrupos.\nEstándar 3.18: En la evaluación de individuos para fines de diagnóstico y/o colocación en un programa especial, los usuarios de la prueba no deben usar puntajes de la prueba como los únicos indicadores para caracterizar el funcionamiento, la competencia, las actitudes y/o las predisposiciones de un individuo. En cambio, deben utilizarse múltiples fuentes de información, deben considerarse explicaciones alternativas para el desempeño en la prueba, y el juicio profesional de alguien familiarizado con la prueba debe aplicarse a la decisión.\nEstándar 3.19: En contextos en los que la misma autoridad es responsable tanto de la provisión del plan de estudios como de las decisiones de alto riesgo basadas en la evaluación del dominio del plan de estudios por parte de los individuos examinados, estos últimos no deberían sufrir consecuencias negativas permanentes si la evidencia indica que no han tenido la oportunidad de aprender el contenido de la prueba\nEstándar 3.20: Cuando un constructo puede medirse de diferentes maneras que son iguales en su grado de representación del constructo y validez (incluyendo la ausencia de varianza irrelevante de constructo), los usuarios de la prueba deben considerar, entre otros factores, evidencia de diferencias de los subgrupos en los puntajes medios o en porcentajes de individuos examinados cuyos puntajes excedan los puntajes de corte, en la decisión de qué puntajes de prueba y/o de corte usar.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Estándares para pruebas educativas y psicológicas</span>"
+    ]
+  },
+  {
+    "objectID": "1.03. Psicometría.html",
+    "href": "1.03. Psicometría.html",
+    "title": "3  Introducción a la Psicometría",
+    "section": "",
+    "text": "holi\nEn disciplinas como la psicología, sociología o educación es de interés la medición de constructos, que son construcciones conceptuales (no fenómenos físicos) y, por tanto, no observables. La medición de dichos constructos se realiza mediante el uso de instrumentos (tests) que logran capturar efectos observables del constructo de interés.\nPor ej. Un test de matemáticas permite medir la habilidad en esta disciplina de un estudiante mediante su desempeño en dicho test, que es consecuencia del grado de habilidad que posee.\nEl principal problema de asignar números a ciertas conductas es el poder afirmar que ese puntaje refleja la habilidad o rasgo que se quiere medir. De esto depende que podamos hacer inferencias correctas. Para lograr esto requerimos un modelo formal.\n¿Qué es un modelo matemático?\nEs una representación abstracta de la realidad, que busca describirla.\nLos modelos formales, son un conjunto de relaciones ya definidas y no necesariamente observables.\nUn modelo necesariamente implica algún grado de reducción. Por esto no son completamente exactos con problemas de la vida real, de hecho, se trata de una idealización.\nEn términos lógicos los modelos pueden describir y/o predecir.\nEl problema del modelo formal en psicometría:\nLos modelos en disciplinas no sociales-humanas, las denominadas “ciencias duras”, tienen la ventaja de que se origina en información observable, o que al menos puede ser medida con convenciones claras para todos (cms., kgs., años).\nEn el caso de la psicometría, la información que nos interesa medir no es observable, sino que es una convención o constructo (por ejemplo: aprendizaje de matemática).\nConstructo: un atributo cuya presencia podemos inferir a partir de una serie de conductas (y actitudes, e incluso creencias).\nPasos para medir un constructo:\n\nAsignar un puntaje a una conducta observada.\nInferir un puntaje real a partir del puntaje observado.\nArgumentar que el puntaje real refleja con certeza la “cantidad” de un constructo.\n\nEl estudio de esta cadena de inferencias y sus implicancias mediante el uso de modelos formales, en este caso, matemáticos y estadísticos se realiza mediante las teorías psicométricas, que corresponden a modelos estadísticos formales que relacionan mediciones de constructos con mediciones de sus efectos observables.\nEn la actualidad existen dos teorías ampliamente utilizadas:\n\nTeoría Clásica de Tests (TCT).\nTeoría de Respuesta al Ítem (IRT).",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introducción a la Psicometría</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html",
+    "href": "1.04. Teoría Clásica.html",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "",
+    "text": "4.1 Formulación matemática\nLa teoría clásica de test es la forma más sencilla de analizar un test que considera la información entregada por el test como un todo. En otras palabras, utiliza el puntaje observado como una estimación suficiente de la habilidad del individuo.\n\\[\nX_{i} = V_{i} + E_{i}\n\\]\nDonde:",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html#formulación-matemática",
+    "href": "1.04. Teoría Clásica.html#formulación-matemática",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "",
+    "text": "\\(X_i\\) = Puntaje observado.\n\\(V_i\\) = Puntaje verdadero.\n\\(E_i\\) = Error de medición.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html#supuestos-de-la-tct",
+    "href": "1.04. Teoría Clásica.html#supuestos-de-la-tct",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "4.2 Supuestos de la TCT",
+    "text": "4.2 Supuestos de la TCT\nPrimero es importante comprender qué un supuesto en una teoría con un sustrato matemático.\n\nSupuesto: aquellas cosas que debemos dar por ciertas si queremos perseguir ese camino de demostración, en otras palabras, son planteamientos sin demostración que quien utiliza la teoría debe dar por hecho.\n\nSupuestos TCT:\n\nLa puntuación verdadera (\\(V_i\\)) es la esperanza matemática de la puntuación empírica.\n\nFormulación MIDE: Todos los ítems miden con error, pero estos errores se ‘cancelan’ entre sí. El promedio de los errores de medición es cero.\nFormulación matemática: \\(V = E(X)\\)\nExplicación en simple: “Se define la puntuación verdadera de una persona en un test como aquella puntuación que obtendría como media si se le pasase infinitas veces el test.” (Muñiz 2010)\n\nNo existe relación entre la cuantía de las puntuaciones verdaderas de las personas y el tamaño de los errores que afectan a esas puntuaciones.\n\nFormuación MIDE: Todos los ítems miden con error, pero estos errores no aumentan o disminuyen según el nivel de habilidad del evaluado: El error de medición no esta correlacionado con la habilidad del examinado (Puntaje verdadero).\nFormulación matemática: \\(r(v,e) = 0\\)\nExplicación en simple: “El valor de la puntuación verdadera de una persona no tiene nada que ver con el error que afecta esa puntuación, es decir, puede haber puntuaciones verdaderas altas con errores bajos, o altos, no hay conexión entre el tamaño de la puntuación verdadera y el tamaño de los errores.”(Muñiz 2010)\n\nLos errores de medida de las personas en un test no están relacionados con los errores de medida en otro test distinto.\n\nFormulación MIDE: Todas las personas responden la prueba con error, pero este error es ‘único’ para cada persona : Los errores de medición de dos estudiantes no están correlacionados entre sí.\nFormulación matemática: \\(r(e_{j}, e_{k}) = 0\\)\nExplicación en simple: “No hay ninguna razón para pensar que los errores cometidos en una ocasión vayan a ocurrir en otra aplicación”.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html#análisis-de-ítems-y-pruebas",
+    "href": "1.04. Teoría Clásica.html#análisis-de-ítems-y-pruebas",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "4.3 Análisis de Ítems y pruebas",
+    "text": "4.3 Análisis de Ítems y pruebas\nResumen estadístico TCT:\n\n\n\n\n\nCómo ordena las personas (por puntaje obtenido):",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html#error-de-medición",
+    "href": "1.04. Teoría Clásica.html#error-de-medición",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "4.4 Error de medición:",
+    "text": "4.4 Error de medición:\n\nComo en todo modelamiento estadístico, es importante cuantificar el error aleatorio del proceso inferencial.\nEl error de medición permite cuantificar cuán preciso es el puntaje resultante de un test.\nSe expresa en la misma escala de las puntuaciones observadas.\nPermite construir un Intervalo de Confianza para el puntaje verdadero.\nSe relaciona de forma inversa con la confiabilidad.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html#ventajas-y-limitaciones",
+    "href": "1.04. Teoría Clásica.html#ventajas-y-limitaciones",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "4.5 Ventajas y Limitaciones",
+    "text": "4.5 Ventajas y Limitaciones\nVentajas:\n\nEs fácil de interpretar.\nLos cálculos son sencillos de realizar en cualquier computador y software estadístico.\n\nLimitaciones:\n\nLa estimación de habilidad de los examinados se basa en sus respuestas al test como un todo, y no en el funcionamiento particular de los ítems.\nEstimaciones de habilidad dependen de los ítems administrados y de la muestra utilizada.\nLos parámetros de los ítems dependen de la muestra en que son estimados.\nEl error de estimación se basa en el comportamiento de un grupo.\nParámetros de los ítems y estimaciones de habilidad se expresan en escalas diferentes.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html#estadígrafos-relevantes-en-tct",
+    "href": "1.04. Teoría Clásica.html#estadígrafos-relevantes-en-tct",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "4.6 Estadígrafos relevantes en TCT",
+    "text": "4.6 Estadígrafos relevantes en TCT\nEn este apartado se presentará una introducción conceptual a cada estadígrafo. Más adelante, en capitulos de profundización, se abordarán los detalles matemáticos y limitaciones de estos estadígrafos.\n\nAlpha de Cronbach: Es una medida de la consistencia interna de prueba, es decir, qué tan relacionados están los ítems de una prueba si los consideramos como un conjunto.\nTasa de omisión: Es la proporción de personas que omite cada ítem. Se puede leer de forma aislada, donde se verifica que un ítem singular tenga una omisión baja. También se puede ver de forma posicional, donde se estudia el recorrido que hizo el alumno por los ítemes ordenados para verificar si existe un patrón de omisión.\nProporción de respuesta: Es la proporción de personas que marca cada una de las respuestas. La proporción de respuestas de la alternativa que figura como respuesta correcta es idéntico a la dificultad del ítem.\nBiseriales: Son diferentes medidas posibles de correlación entre puntaje total obtenido por los alumnos que marcaron esa alternativa y los alumnos que no marcaron la alternativa. La biserial de la respuesta que figura como correcta es idéntico a la discriminación del ítem.\nDificultad: Es la proporción de personas que tiene correcto el ítem.\nDiscriminación: Es una medida de la diferencia en puntaje total de alumnos con buen y mal rendimiento en un ítem específico. Existen diversos métodos para calcularla en teoría clásica.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html#dificultad",
+    "href": "1.04. Teoría Clásica.html#dificultad",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "4.7 Dificultad",
+    "text": "4.7 Dificultad\nSe mide para cada ítem como la proporción de personas que tuvieron ese ítem correcto.\n\\[\nDificultad_i = \\frac{cantidad\\ de\\ respuestas\\ correctas_i}{cantidad\\ total\\ de\\ respuestas}\n\\]\nDonde:\n\n\\(Dificultad_i\\) = dificultad del ítem i.\n\\(cantidad\\ de\\ respuestas\\ correctas_i\\) = cantidad de respuestas correctas para el ítem i.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html#discriminación",
+    "href": "1.04. Teoría Clásica.html#discriminación",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "4.8 Discriminación",
+    "text": "4.8 Discriminación\nConceptualmente indica la capacidad de la pregunta de diferenciar entre personas con alta y baja habilidad del constructo que se pretende medir.\nSe puede medir de diversas formas:\nForma Básica:\n\\[\nDiscriminación_i = prop_i(p_i=1)\\ de\\ puntajes\\ totales\\ altos\\ - prop_i(p_i=1)\\ de\\ puntajes\\ totales\\ bajos\n\\]\nDonde:\n\n\\(prop_i(x_i = 1)\\) = proporción de respuestas correctas para el ítem i.\n\nCorrelación item_total:\n\\[\nDiscriminación_i = p_{it} = \\frac{Cov(i,t)}{\\sigma_i\\sigma_t}\n\\]\nDonde:\n\n\\(Discriminación_i\\) = Discriminación del ítem i.\n\\(i\\) = Puntaje en el ítem i del sujeto.\n\\(t\\) = Puntaje total obtenido por el sujeto.\n\\(P_{it}\\) es la correlación de Pearson entre i y t.\n\nPunto biserial:\n\n\n\n\n\n\n\nCon cantidad de casos\nCon probabilidades\n\n\n\n\n\\[\nr_{pb} = \\frac{\\bar{x}_{p = 1} - \\bar{x}_{p = 0}}{\\sigma_T} \\sqrt{\\frac{n_1 . n_2}{n^2}}\n\\]\n\\[\nr_{pb} = \\frac{\\bar{x}_{p = 1} - \\bar{x}_{p = 0}}{\\sigma_T} \\sqrt{pq}\n\\]\n\n\nDonde:\n\n\\(r_{pb}\\) = Punto biserial.\n\\(\\bar{x}_{p = 1}\\) = media de puntaje total de los sujetos que tuvieron el ítem correcto.\n\\(\\bar{x}_{p = 0}\\) = media de puntaje total de los sujetos que tuvieron el ítem incorrecto.\n\\(\\sigma_T\\) = desviación estándar de los puntajes totales entre sujetos.\n\\(n_1\\) = cantidad de personas que aprobaron el ítem.\n\\(n_2\\) = cantidad de personas que reprobaron el ítem.\n\\(n\\) = número total de personas que rindieron el ítem.\n\nDonde:\n\n\\(r_{pb}\\) = Punto biserial.\n\\(\\bar{x}_{p = 1}\\) = media de puntaje total de los sujetos que tuvieron el ítem correcto.\n\\(\\bar{x}_{p = 0}\\) = media de puntaje total de los sujetos que tuvieron el ítem incorrecto.\n\\(\\sigma_T\\) = desviación estándar de los puntajes totales entre sujetos.\n\\(p\\) = probabilidad de tener la pregunta correcta.\n\\(q\\) = probabilidad de tener la pregunta incorrecta.\n\n\n\n\nExisten estratégicas matemáticas para obtener punto-biseriales y correlaciones item-test con más información. Algunas son:\n\nPara el puntaje total, NO considerar el puntaje del ítem evaluado, es decir, si la prueba tenía 15 puntos máximo para efectos de este análisis tiene 14. Esto es lo que se conoce como un cálculo de biserial item-reminder.\nAlgunos cálculos de biserial en lugar de calcular la diferencia de p=1 - p=0, utilizan la media de todos los sujetos de esta forma: p=1ó0 - p=0.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.04. Teoría Clásica.html#output-tipo-de-tct-de-la-unidad",
+    "href": "1.04. Teoría Clásica.html#output-tipo-de-tct-de-la-unidad",
+    "title": "4  Teoría Clasica de Test (TCT)",
+    "section": "4.9 Output tipo de TCT de la unidad",
+    "text": "4.9 Output tipo de TCT de la unidad\n\nDificultad:\n\n\n\n\n\n\nTip\n\n\n\nCuando se realiza un análisis de dificultad se tiene que plantear un rango de corte, generalmente simétrico entre ambos extremos. Este rango varía según las exigencias y características de la prueba/población/propósito.\nPara este ejemplo se utiliza un estándar de algunas pruebas internacionales de 0.15 puntos, entonces:\n\nMenor a 0.15: ítem difícil.\nMayor a 0.85: ítem fácil.\n\n\n\n\nBrutoFácilMedioDifícilTodos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscriminación\n\n\n\n\n\n\nTip\n\n\n\nCuando se analiza la discriminación se suelen utilizar estándares similares a la evaluación de una correlación, entonces:\n\nMayor a 0.3: discriminación suficiente.\nMenor a 0.3: discriminación insuficiente.\n\nDicho lo anterior, a veces, considerando otras ventajas psicométricas que tenga un ítem se permiten discriminaciones en un rango 0.15 - 0.3 a las que llamaremos discriminación media.\n\n\n\nBrutoSuficienteMediaInsuficienteTodos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMuñiz, José. 2010. “Las Teorı́as de Los Tests: Teorı́a Clásica y Teorı́a de Respuesta a Los ı́Tems.” Papeles Del Psicólogo 31: 57–66.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teoría Clasica de Test (TCT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html",
+    "href": "1.05. IRT.html",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "",
+    "text": "5.1 Formulación matemática simple\nIRT es una teoría que surge como respuesta a algunas de las carencias que presentaba la teoría clásica, especialmente vinculada a la noción de utilizar el puntaje total como una medida apropiada de habilidad.\nEn la lógica IRT podríamos decir que cada ítem de la prueba es un mundo aparte y su análisis se realiza de manera aislada. Una vez teniendo claras las características del ítem podemos “puntuar” a los sujetos utilizando algunas técnicas.\nPara entender la formulación matemática del IRT se vuelve necesario una pequeña introducción las funciones exponenciales y la constante Euler (\\(e\\)).\nINSERTAR INTRODUCCION A EULER\n\\(z\\)\nEn general se utiliza la forma 1 ya que es más clara de visualizar.\nLo que va a cambiar entre los modelos IRT es qué es el z.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#formulación-matemática-simple",
+    "href": "1.05. IRT.html#formulación-matemática-simple",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "",
+    "text": "Forma 1\nForma 2\n\n\n\n\n\\[\nP(y = 1|z) = \\frac{e^z}{1+e^z}\n\\]\n\\[\nP(y = 1|z) = \\frac{1}{1+e^{-z}}\n\\]\n\n\nDonde:\n\n\\(P(y=1|z)\\) = La probabilidad de que el resultado sea = 1, dado z (condición bayesiana).\n\\(e\\) = constante de euler.\n\\(z\\) = condición.\n\nDonde:\n\n\\(P(y=1|z)\\) = La probabilidad de que el resultado sea = 1, dado z (condición bayesiana).\n\\(e\\) = constante de euler.\n\\(z\\) = condición.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#supuestos-de-irt",
+    "href": "1.05. IRT.html#supuestos-de-irt",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.2 Supuestos de IRT",
+    "text": "5.2 Supuestos de IRT\n\nMonotonía: a medida que aumenta el nivel de habilidad en la dimensión medida mayor es la probabilidad de responder correctamente.\nUnidimensionalidad: existe una variable latente dominante que se está midiendo y esta latente es lo que explica las respuestas observadas para cada ítem.\nIndependencia local: las respuestas entregadas para los ítems son independientes entre sí dada un cierto nivel de habilidad, es decir, responder bien un ítem no te va a ayudar a responder bien otro de los ítems.\nInvarianza: no existen razones para pensar que existen manifestaciones distintas de la habilidad medida entre personas, es decir, la misma función aplicaría para toda la población.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#introducción-a-los-parámetros",
+    "href": "1.05. IRT.html#introducción-a-los-parámetros",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.3 Introducción a los parámetros",
+    "text": "5.3 Introducción a los parámetros\nPara reemplazar la variable z, mencionada anteriormente en la formulación matemática, existen 5 parámetros que alteran la curva del modelo de alguna manera.\nEsos 5 parámetros se diferencian en 2 tipos:\n\nParámetros de los evaluados (p).\nParámetros de los ítems (i).\n\nParámetros de los evaluados\nEs solo 1 parámetro que se le llama habilidad y es simbolizado como \\(\\theta_p\\).\nParámetros de los ítems\n\nDificultad (\\(b_i\\)):\n\nMatemáticamente: altera dónde está el centro de la curva, es decir, el nivel de habilidad (\\(\\theta\\)) donde la probabilidad de acierto es 0.5.\nConceptualmente: marca la habilidad que necesitaría una persona para tener más posibilidades de tener la respuesta correcta que incorrecta \\(P(correcta)&gt;P(incorrecta)\\).\n\nDiscriminación (\\(a_i\\)):\n\nMatemáticamente: altera la pendiente de la curva, es decir, a mayor discriminación se necesita un mayor nivel de habilidad para responder la respuesta correctamente.\nConceptualmente: Un ítem que discrimina mejor diferencia mejor entre un alumno de alta habilidad que de baja habilidad.\n\nAdivinación (\\(c_i\\)):\n\nMatemáticamente: altera la altura inicial de la curva, es decir, el punto donde el eje “x” es 0 genera un “y” mayor a 0.\nConceptualmente: como queremos explicar la probabilidad de acierto dado el nivel de habilidad de la persona de forma lo más aislada posible debemos descartar o considerar en la ecuación la posibilidad de que el alumno simplemente le haya achuntado. Esto se realiza “regalandole” a todos los sujetos una pequeña probabilidad de base.\nOtra forma de pensar este parámetro es que van a existir casos de falsos positivos, donde vas a tener la pregunta correcta sin tener la habilidad suficiente para tener esa pregunta correcta, por lo tanto, se aumenta un poco la probabilidad basal para considerar este efecto.\n\nInatención (\\(d_i\\)): altera la altura final de la curva (el techo).\n\nMatemáticamente: altera la altura final de la curva, es decir, el punto donde el eje “x” es infinito genera un “y” menor a 1.\nConceptualmente: como queremos explicar la probabilidad de acierto dado el nivel de habilidad de la persona de forma lo más aislada posible debemos descartar o considerar en la ecuación la posibilidad de que el alumno no esté prestando atención por algún factor externo a su habilidad. Esto se realiza “quitandole” a todos los sujetos una pequeña probabilidad de base.\nOtra forma de pensar este parámetro es que van a existir casos de falsos negativos, donde vas a tener la pregunta incorrecta teniendo la habilidad suficiente para tener esa pregunta correcta, por lo tanto, se aumenta un poco la probabilidad basal para considerar este efecto.\n\n\nDependiendo de cuántos parámetros tenga el modelo se denominan como 1PL, 2PL, 3PL o 4PL.\nUna idea que es importante para entender estos modelos es la diferencia en cuando un parámetro actúa como variable y como valor constante. La realidad oculta de los modelos es que todos poseen todos los parámetros en sus equaciones, la diferencia real entre los modelos es si estos parámetros son constantes o variables.\nAl presentar los modelos a continuación se presentará la versión reducida con solo los parámetros variables y la versión completa que incluye los parámetros constantes implícitos.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#formula-completa-irt-hasta-4pl",
+    "href": "1.05. IRT.html#formula-completa-irt-hasta-4pl",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.4 Formula completa IRT hasta 4PL",
+    "text": "5.4 Formula completa IRT hasta 4PL\n\\[\nP(y=1|\\theta_p;b_i,a_i,c_i,d_i) = c_i + (d_i-c_i)\\left(\\frac{e^{a_i(\\theta_p-b_i)}}{1 + e^{a_i(\\theta_p-b_i)}}\\right)\n\\]\nDonde:\n\n\\(P(y=1|\\theta_p;b_i,a_i,c_i,d_i)\\) = probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p; y la dificultad, discriminación, posibilidad de adivinación e inatención para el ítem i.\n\\(\\theta_p\\) = habilidad del estudiante p.\n\\(a_i\\)= discriminación del ítem i.\n\\(b_i\\)= dificultad del ítem i.\n\\(c_i\\)= posibilidad de adivinación para el ítem i.\n\\(d_i\\)= posibilidad de inatención para el ítem i.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#pl---modelo-rasch",
+    "href": "1.05. IRT.html#pl---modelo-rasch",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.5 1PL - Modelo Rasch",
+    "text": "5.5 1PL - Modelo Rasch\n\n\n\n\n\n\n\nVersión reducida\nVersión completa\n\n\n\n\n\\[\nP(y = 1|\\theta_p;b_i) = \\frac{e^{(\\theta_p-b_i)}}{1+e^{(\\theta_p-b_i)}}\n\\]\n\\[\nP(y=1|\\theta_p;b_i) = 0 + (1-0)\\left(\\frac{e^{1(\\theta_p-b_i)}}{1 + e^{1(\\theta_p-b_i)}}\\right)\n\\]\n\n\nDonde:\n\n\\(P(y=1|\\theta_p;b_i)\\) = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p y la dificultad del ítem i.\n\\(e\\) = constante de euler.\n\\(\\theta_p\\) = nivel de habilidad de la dimensión medida del estudiante/participante p.\n\\(b_i\\) = dificultad del ítem i.\n\nDonde:\n\n\\(P(y=1|\\theta_p;b_i)\\) = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p y la dificultad del ítem i.\n\\(e\\) = constante de euler.\n\\(\\theta_p\\) = nivel de habilidad de la dimensión medida del estudiante/participante p.\n\\(b_i\\) = dificultad del ítem i.\n\\(a_i\\) = 1\n\\(c_i\\) = 0\n\\(d_i\\) = 1\n\n\n\n\nExiste una diferencia sutil entre ejecutar un modelo 1PL y Rasch que se aprecia en las siguientes ecuaciones:\n\n\n\n\n\n\n\nRasch\n1PL\n\n\n\n\n\\[\n   P(y = 1|\\theta_p,b_i) = \\frac{e^{1(\\theta_p-b_i)}}{1+e^{1(\\theta_p-b_i)}}\n                                      \\]\n\\[                                                                        P(y = 1|\\theta_p,b_i) = \\frac{e^{1.7(\\theta_p-b_i)}}{1+e^{1.7(\\theta_p-b_i)}}                                                                          \\]\n\n\n\nEl modelo 1PL el parámetro discriminación es constante, pero puede tomar cualquier valor (1.7 en el ejemplo).\nEl modelo Rasch siempre va a poseer discriminación = 1.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#pl",
+    "href": "1.05. IRT.html#pl",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.6 2PL",
+    "text": "5.6 2PL\n\n\n\n\n\n\n\nVersión reducida\nVersión completa\n\n\n\n\n\\[\nP(y=1|\\theta_p;b_i,a_i) = \\frac{e^{a_i(\\theta_p-b_i)}}{1 + e^{a_i(\\theta_p-b_i)}}\n\\]\n\\[\nP(y=1|\\theta_p;b_i,c_i) = 0 + (1-0)\\left(\\frac{e^{a_i(\\theta_p-b_i)}}{1 + e^{a_i(\\theta_p-b_i)}}\\right)\n\\]\n\n\nDonde:\n\n\\(P(y=1|\\theta_p;b_i,c_i)\\) = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p; y la dificultad y discriminación del ítem i.\n\\(e\\) = constante de euler.\n\\(\\theta_p\\) = nivel de habilidad de la dimensión medida del estudiante/participante p.\n\\(b_i\\) = dificultad del ítem i.\n\\(a_i\\) = discriminación del ítem i.\n\nDonde:\n\n\\(P(y=1|\\theta_p;b_i,c_i)\\) = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p; y la dificultad y discriminación del ítem i.\n\\(e\\) = constante de euler.\n\\(\\theta_p\\) = nivel de habilidad de la dimensión medida del estudiante/participante p.\n\\(b_i\\) = dificultad del ítem i.\n\\(a_i\\) = discriminación del ítem i.\n\\(c_i\\) = 0\n\\(d_i\\) = 1",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#pl-1",
+    "href": "1.05. IRT.html#pl-1",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.7 3PL",
+    "text": "5.7 3PL\nEn 3PL se presenta solo la fórmula del modelo ya que se necesita mostrar el 1 asociado a la inatención siempre.\n\\[\nP(y=1|\\theta_p;b_i,a_i,c_i) = c_i + (1-c_i) \\left(\\frac{e^{a_i(\\theta_p-b_i)}}{1 + e^{a_i(\\theta_p-b_i)}}\\right)\n\\]\nDonde:\n\n\\(P(y=1|\\theta_p;b_i,a_i,c_i)\\) = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p; y la dificultad, discriminación y posibilidad de adivinación para el ítem i.\n\\(e\\) = constante de euler.\n\\(\\theta_p\\) = nivel de habilidad de la dimensión medida del estudiante/participante p.\n\\(b_i\\) = dificultad del ítem i.\n\\(a_i\\) = discriminación del ítem i.\n\\(c_i\\) = adivinación del ítem i.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#curvas-características-de-los-ítem-icc",
+    "href": "1.05. IRT.html#curvas-características-de-los-ítem-icc",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.8 Curvas características de los ítem (ICC)",
+    "text": "5.8 Curvas características de los ítem (ICC)\n\nEje x: escala de habilidad de los sujetos (\\(\\theta\\)) - unidad logit.\nEje y: Probabilidad de marcar correcto el ítem.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#curvas-de-información",
+    "href": "1.05. IRT.html#curvas-de-información",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.9 Curvas de información",
+    "text": "5.9 Curvas de información\nPara los ítems:\n\n\n\n\n\n\n\n\n1PL\n2PL\n3PL\n\n\n\n\n\\[\nI_i(\\theta) = D^2\\ P_i(\\theta, b_i)\\ Q_i(\\theta, b_i)\n\\]\n\\[\nI_i(\\theta) = D^2\\ a_i^2\\ P_i(\\theta, b_i)\\ Q_i(\\theta, b_i)\n\\]\n\\[\nI_{i\\theta} = \\frac{D^2\\ a_i^2\\ Q_i(\\theta, b_i)\\ (P_{i\\theta}- c_i)^2}{P_{i\\theta}(1- c_i)^2}\n\\]\n\n\nDonde:\n\n\\(\\theta\\) = nivel de habilidad.\n\\(b_i\\) = dificultad del ítem i.\n\\(D\\) = constante 1.702.\n\\(P_i\\) = probabilidad de tener el ítem i correcto.\n\\(Q_i\\) = probabilidad de tener el ítem incorrecto.\n\nDonde:\n\n\\(\\theta\\) = nivel de habilidad.\n\\(b_i\\) = dificultad del ítem i.\n\\(D\\) = constante 1.702.\n\\(a_i\\) = discriminación del ítem i.\n\\(P_i\\) = probabilidad de tener el ítem i correcto.\n\\(Q_i\\) = probabilidad de tener el ítem incorrecto.\n\nDonde:\n\n\\(\\theta\\) = nivel de habilidad.\n\\(b_i\\) = dificultad del ítem i.\n\\(D\\) = constante 1.702.\n\\(a_i\\) = discriminación del ítem i.\n\\(c_i\\) = adivinación del ítem i.\n\\(P_i\\) = probabilidad de tener el ítem i correcto.\n\\(Q_i\\) = probabilidad de tener el ítem incorrecto.\n\n\n\n\nPara la prueba:\n\\[\nIT_\\theta = \\sum_{i=1}^n I_{i\\theta}\n\\]\nDonde:\n\n\\(IT_\\theta\\) = Información de la prueba para el nivel de habilidad \\(\\theta\\).\n\\(n\\) = cantidad de ítems.\n\\(I_{i\\theta}\\) = Información para el ítem i para el nivel de habilidad \\(\\theta\\)\n\niθGrafico:\n\nEje x: escala de habilidad de los sujetos (\\(\\theta\\)) - unidad logit.\nEje y: Información.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#wrightmaps",
+    "href": "1.05. IRT.html#wrightmaps",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.10 Wrightmaps",
+    "text": "5.10 Wrightmaps\nParte superior:\n\nEje x: escala de habilidad de los sujetos (\\(\\theta\\)) - unidad logit.\nEje y: Frecuencia de alumnos en dicho nivel de habilidad.\n\nParte inferior:\n\nEje x: dificultad de los ítems en escala de habilidad (\\(\\theta\\)) - unidad logit.\nEje y: ítems - categórico.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#ventajas-y-limitaciones",
+    "href": "1.05. IRT.html#ventajas-y-limitaciones",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.11 Ventajas y Limitaciones",
+    "text": "5.11 Ventajas y Limitaciones\nVentajas:\n\nLa estimación de habilidad no depende del resto de la muestra.\nLa estimación de habilidad no depende del grupo particular de ítems que fue administrado.\nPermite modelar los datos a partir de las características particulares de cada ítem.\nGenera una misma escala para la dificultad de los ítems y las habilidades de los individuos haciendo comparables ambas medidas. Esto es de interés para procedimientos adicionales (Ej: Standard Setting).\n\nLimitaciones:\n\nRequiere el cumplimiento de supuestos más fuertes.\nRequiere más datos para obtener estimaciones estables y confiables.\nEs computacionalmente más costoso.",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "1.05. IRT.html#otros-modelos-que-nacen-del-irt",
+    "href": "1.05. IRT.html#otros-modelos-que-nacen-del-irt",
+    "title": "5  Teoría de Respuesta al Ítem (IRT)",
+    "section": "5.12 Otros modelos que nacen del IRT",
+    "text": "5.12 Otros modelos que nacen del IRT\n\nModelo de respuesta graduada (GRM) (Samejima, 1962, 1972; Muraki,1990).\nModelo de créditos parciales (PCM) (Masters, 1982).\nModelo de respuesta nominal (Bock, 1972).\n\n\nimport {slider} from \"@jashkenas/inputs\";\n\n\n\n\n\n\n\nviewof b = slider({\n    min: -2,\n    max: 2,\n    step: 0.1,\n    value: 0,\n    title: \"Dificultad (b)\"\n});\n\n\n\n\n\n\n\nmd`\n  ${tex.block`\n    P(y=1|\\theta_p;b_i) = \\left( \\frac{1}{ 1 + e^{-(x - ${b})}} \\right)\n  `}\n`\n\n\n\n\n\n\n\nx = Array.from({ length: (3 - (-3)) / 0.01 + 1 }, (_, i) =&gt; -3 + i * 0.01);\ny = x.map((x) =&gt; 1/(1 + Math.exp(-(x - b))));\n\n\n// Plot the data\nPlot.plot({\n  marks: [\n    Plot.ruleY([0]),\n    Plot.ruleX([0]),\n    Plot.line(\n      x.map((_, i) =&gt; ({ x: x[i], y: y[i] })),\n      { x: \"x\", y: \"y\", stroke: \"steelblue\" }\n    ),\n    // Add a bold dot directly at x = b, y = 0.5\n    Plot.dot([{ \n      x: b, \n      y: 0.5 \n    }], {\n      x: \"x\", \n      y: \"y\", \n      fill: \"red\", \n      r: 5  // Increase the radius to make it a bold dot\n    })\n  ],\n  x: {\n    label: \"x-axis\",\n    domain: [-3, 3],\n    grid: true\n  },\n  y: {\n    label: \"y-axis\",\n    domain: [0, 1],\n    grid: true\n  }\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof a = slider({\n    min: -3,\n    max: 3,\n    step: 0.1,\n    value: 1,\n    title: \"Discriminación (a)\"\n});\nviewof b = slider({\n    min: -2,\n    max: 2,\n    step: 0.1,\n    value: 0,\n    title: \"Dificultad (b)\"\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmd`\n  ${tex.block`\n    P(y=1|\\theta_p;b_i,a_i) = \\left( \\frac{1}{ 1 + e^{-(${a} (x - ${b}))}} \\right)\n  `}\n`\n\n\n\n\n\n\n\nx = Array.from({ length: (3 - (-3)) / 0.01 + 1 }, (_, i) =&gt; -3 + i * 0.01);\ny = x.map((x) =&gt; 1/(1 + Math.exp(-(a * (x - b)))));\n\n// Plot the data\nPlot.plot({\n  marks: [\n    Plot.ruleY([0]),\n    Plot.ruleX([0]),\n    Plot.line(\n      x.map((_, i) =&gt; ({ x: x[i], y: y[i] })),\n      { x: \"x\", y: \"y\", stroke: \"steelblue\" }\n    ),\n    // Add a bold dot directly at x = b, y = 0.5\n    Plot.dot([{ \n      x: b, \n      y: 0.5 \n    }], {\n      x: \"x\", \n      y: \"y\", \n      fill: \"red\", \n      r: 5  // Increase the radius to make it a bold dot\n    })\n  ],\n  x: {\n    label: \"x-axis\",\n    domain: [-3, 3],\n    grid: true\n  },\n  y: {\n    label: \"y-axis\",\n    domain: [0, 1],\n    grid: true\n  }\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof a = slider({\n    min: -2,\n    max: 2,\n    step: 0.1,\n    value: 1,\n    title: \"Discriminación (a)\"\n});\n\nviewof b = slider({\n    min: -2,\n    max: 2,\n    step: 0.1,\n    value: 0,\n    title: \"Dificultad (b)\"\n});\nviewof c = slider({\n    min: -1,\n    max: 1,\n    step: 0.1,\n    value: 0,\n    title: \"Adivinación (c)\"\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmd`\n  ${tex.block`\n    P(y=1|\\theta_p;b_i,a_i,c_i) = ${c} + \\left( \\frac{1-${c}}{ 1 + e^{-(${a} (x - ${b}))}} \\right)\n  `}\n`\n\n\n\n\n\n\n\nx = Array.from({ length: (3 - (-3)) / 0.01 + 1 }, (_, i) =&gt; -3 + i * 0.01);\ny = x.map((x) =&gt; c + ((1-c)/(1 + Math.exp(-(a * (x - b))))));\n\n\n// Plot the data\nPlot.plot({\n  marks: [\n    Plot.ruleY([0]),\n    Plot.ruleX([0]),\n    Plot.line(\n      x.map((_, i) =&gt; ({ x: x[i], y: y[i] })),\n      { x: \"x\", y: \"y\", stroke: \"steelblue\" }\n    ),\n    // Add a bold dot directly at x = b, y = 0.5\n    Plot.dot([{ \n      x: b, \n      y: 0.5 + (c/2) \n    }], {\n      x: \"x\", \n      y: \"y\", \n      fill: \"red\", \n      r: 5  // Increase the radius to make it a bold dot\n    })\n  ],\n  x: {\n    label: \"theta\",\n    domain: [-3, 3],\n    grid: true\n  },\n  y: {\n    label: \"P()\",\n    domain: [0, 1],\n    grid: true\n  }\n})",
+    "crumbs": [
+      "Módulo teórico",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Teoría de Respuesta al Ítem (IRT)</span>"
+    ]
+  },
+  {
+    "objectID": "2.01. R base.html",
+    "href": "2.01. R base.html",
+    "title": "6  Introducción a Programación",
+    "section": "",
+    "text": "6.1 Sintáxis básica de R\nEsta inducción asume un conocimiento básico de R. Dejamos este breve recordatorio, sin embargo, si conoces R te dejamos a continuación algunos recursos que pueden servirte:",
+    "crumbs": [
+      "Módulo código",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introducción a Programación</span>"
+    ]
+  },
+  {
+    "objectID": "2.01. R base.html#sintáxis-básica-de-r",
+    "href": "2.01. R base.html#sintáxis-básica-de-r",
+    "title": "6  Introducción a Programación",
+    "section": "",
+    "text": "Normas\nPara crear elementos, sea cual sea utilizamos la norma:\nnombre &lt;- \"valor\"\nComo todo lenguaje R posee funciones integradas que tienen la siguiente estructura:\n\n\n\n\n\n\nnombre_funcion(parametro_1 = valor_1, parametro_2 = valor_2,…,parametro_n = valor_n)\n\n\n\nToda función posee 2 tipos de parámetros:\n\nParámetros obligatorios: son parámetros que sin ellos la función no se ejecutará, son requeridos y mínimos para su funcionamiento.\nParámetros opcionales: son parámetros que modifican detalles de la ejecución, pero no son necesarios.\n\nEjemplo:\nLa función boxplot tiene 1 parámetro obligatorio llamado “x” que requiere de una variable o formula que graficar dentro del boxplot.\n\n\n\n\n\n\nTip\n\n\n\n\nboxplot 1 muestra el error que arroja R cuando falta un parámetro obligatorio.\nboxplot 2 muestra el resultado de la función boxplot con su parámetro obligatorio.\nboxplot 3 agrega un parámetro opcional que modifica la orientación del boxplot.\n\n\n\n\nboxplot 1boxplot 2boxplot 3\n\n\naclaración: “try()” es una función que le permite a R correr el código incluso si produce un error y se utiliza para poder mostrarlo.\nError in boxplot.default() : argument “x” is missing, with no default",
+    "crumbs": [
+      "Módulo código",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introducción a Programación</span>"
+    ]
+  },
+  {
+    "objectID": "2.01. R base.html#tipos-de-objetos-r",
+    "href": "2.01. R base.html#tipos-de-objetos-r",
+    "title": "6  Introducción a Programación",
+    "section": "6.2 Tipos de objetos R",
+    "text": "6.2 Tipos de objetos R\n\nPreguntaRespuestas\n\n\n\n¿Qué tipo de variables representa cada objeto creado en el código siguiente?\n\nobjeto1 &lt;- \"Jerry\"\nobjeto2 &lt;- 2\nobjeto3 &lt;- \"3\"\nobjeto4 &lt;- TRUE\nobjeto5 &lt;- 1.1\nobjeto6 &lt;- c(5, 4, 3)\nobjeto7 &lt;- list(5, 4, 3)\nobjeto8 &lt;- tibble(x = c(1,2), y = c(\"A\", \"B\"))\nobjeto9 &lt;- print\n\n\n\n\n\nobjeto1 &lt;- \"Jerry\"                              # texto (string)\nobjeto2 &lt;- 2                                    # número entero (integer)\nobjeto3 &lt;- \"3\"                                  # número como texto\nobjeto4 &lt;- TRUE                                 # booleano (logical)\nobjeto5 &lt;- 1.1                                  # número decimal (double)\nobjeto6 &lt;- c(5, 4, 3)                           # vector con 3 elementos\nobjeto7 &lt;- list(5, 4, 3)                        # lista con 3 elementos\nobjeto8 &lt;- tibble(x = c(1,2), y = c(\"A\", \"B\"))  # base de datos\nobjeto9 &lt;- print                                # función",
+    "crumbs": [
+      "Módulo código",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introducción a Programación</span>"
+    ]
+  },
+  {
+    "objectID": "2.01. R base.html#tipos-de-variables",
+    "href": "2.01. R base.html#tipos-de-variables",
+    "title": "6  Introducción a Programación",
+    "section": "6.3 Tipos de variables",
+    "text": "6.3 Tipos de variables\n\nString: texto, siempre se señala con “” o ’’.\nNuméricas:\n\nInteger: números entéros.\nDouble: enteros + decimales.\n\nLogical: valores TRUE o FALSE",
+    "crumbs": [
+      "Módulo código",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introducción a Programación</span>"
+    ]
+  },
+  {
+    "objectID": "2.01. R base.html#operaciones-sobre-variables",
+    "href": "2.01. R base.html#operaciones-sobre-variables",
+    "title": "6  Introducción a Programación",
+    "section": "6.4 Operaciones sobre variables",
+    "text": "6.4 Operaciones sobre variables\n\nStringNumericasLogical\n\n\n\nEliminar valores\n#La primera instancia:\nstr_remove(string, \"o\")\n[1] “Hla para UA”\n#Todas las instancias:\nstr_remove_all(string, \"a\")\n[1] “Hol pr UA”\n\n\nReemplazar valores\n[1] “Holx para UA” [1] “Holx pxrx UA”\n\n\nSeparar valores\n[[1]] [1] “Hola” “para” “UA”",
+    "crumbs": [
+      "Módulo código",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introducción a Programación</span>"
+    ]
+  },
+  {
+    "objectID": "2.01. R base.html#loops",
+    "href": "2.01. R base.html#loops",
+    "title": "6  Introducción a Programación",
+    "section": "6.5 Loops",
+    "text": "6.5 Loops",
+    "crumbs": [
+      "Módulo código",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introducción a Programación</span>"
+    ]
+  },
+  {
+    "objectID": "2.01. R base.html#purrr",
+    "href": "2.01. R base.html#purrr",
+    "title": "6  Introducción a Programación",
+    "section": "6.6 Purrr",
+    "text": "6.6 Purrr",
+    "crumbs": [
+      "Módulo código",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introducción a Programación</span>"
+    ]
+  },
+  {
+    "objectID": "3.01. Introduction.html",
+    "href": "3.01. Introduction.html",
+    "title": "7  Características de la unidad",
+    "section": "",
+    "text": "7.1 TRABAJO EN EQUIPO\nLa unidad de análisis valora el trabajo en equipo, en concreto se espera que:\nOtro elemento importante es una actitud flexible y de apertura a hacer las cosas de forma distinta a la que personalmente creemos es la correcta. Muchas veces vamos a trabajar con códigos antiguos y/o otras variables que hagan que tengamos que abandonar la priorización de “el mejor código” y sopesar las distintas variables.",
+    "crumbs": [
+      "Módulo UA",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Características de la unidad</span>"
+    ]
+  },
+  {
+    "objectID": "3.01. Introduction.html#trabajo-en-equipo",
+    "href": "3.01. Introduction.html#trabajo-en-equipo",
+    "title": "7  Características de la unidad",
+    "section": "",
+    "text": "Se pida ayuda cuando se requiera. En especial si crees que no comprendes en su totalidad un análisis o procedimiento.\nSe ofrezca ayuda cuando se esté en condiciones.",
+    "crumbs": [
+      "Módulo UA",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Características de la unidad</span>"
+    ]
+  },
+  {
+    "objectID": "3.01. Introduction.html#buen-código",
+    "href": "3.01. Introduction.html#buen-código",
+    "title": "7  Características de la unidad",
+    "section": "7.2 BUEN CÓDIGO",
+    "text": "7.2 BUEN CÓDIGO\nDicho lo anterior, se valora la creación y ejecución de buen código, cuyas características son:\n\nPermiten trabajo inter-conectado con compañeros.\nEs trazable: todo está plasmado en el código, no hay cosas hechas “por fuera“.\nEs chequeable: se puede revisar el paso a paso de forma fluida.\nEs escalable: lo que hoy hago para tres cosas, mañana funciona fácilmente con 8.\nEs reutilizable: aquello sobre lo que itera puede ser variado o cambiado para otros estudioso versiones del mismo estudio.",
+    "crumbs": [
+      "Módulo UA",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Características de la unidad</span>"
+    ]
+  },
+  {
+    "objectID": "3.01. Introduction.html#características-del-equipo-de-programadores",
+    "href": "3.01. Introduction.html#características-del-equipo-de-programadores",
+    "title": "7  Características de la unidad",
+    "section": "7.3 CARACTERÍSTICAS DEL EQUIPO DE PROGRAMADORES",
+    "text": "7.3 CARACTERÍSTICAS DEL EQUIPO DE PROGRAMADORES\n\nTener un lenguaje común.\nTener perspectiva.\nDocumentar adecuadamente el proceso de los procedimientos (uso efectivo de comentarios).\nPriorizar diseño por sobre escritura de código.",
+    "crumbs": [
+      "Módulo UA",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Características de la unidad</span>"
+    ]
+  },
+  {
+    "objectID": "3.01. Introduction.html#relación-con-las-otras-áreas",
+    "href": "3.01. Introduction.html#relación-con-las-otras-áreas",
+    "title": "7  Características de la unidad",
+    "section": "7.4 RELACIÓN CON LAS OTRAS ÁREAS",
+    "text": "7.4 RELACIÓN CON LAS OTRAS ÁREAS\nTípicamente en nuestro que hacer tenemos 2 principales relaciones:\n\nLos clientes internos: cuando el cliente es de dentro de mide.\nLos clientes externos: cuando el cliente es externo a mide.",
+    "crumbs": [
+      "Módulo UA",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Características de la unidad</span>"
+    ]
+  },
+  {
+    "objectID": "3.01. Introduction.html#estructura-de-carpetas",
+    "href": "3.01. Introduction.html#estructura-de-carpetas",
+    "title": "7  Características de la unidad",
+    "section": "7.5 ESTRUCTURA DE CARPETAS",
+    "text": "7.5 ESTRUCTURA DE CARPETAS\n\n01. Insumos: todo lo que nos entrega la contraparte.\n02. Procedimientos: donde generamos el código del análisis.\n\nProcedimientos 10: importación.\nProcedimientos 20: validación y acomodación.\nProcedimientos 30: Análisis.\n\n03. Productos: resultados y salidas.",
+    "crumbs": [
+      "Módulo UA",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Características de la unidad</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nMuñiz, José. 2010. “Las Teorı́as de Los Tests:\nTeorı́a Clásica y Teorı́a de\nRespuesta a Los ı́Tems.” Papeles\nDel Psicólogo 31: 57–66.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
