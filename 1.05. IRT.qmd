@@ -1,0 +1,531 @@
+---
+title: "Teoría de Respuesta al Ítem (IRT)"
+subtitle: "Módulo teórico"
+---
+
+IRT es una teoría que surge como respuesta a algunas de las carencias que presentaba la teoría clásica, especialmente vinculada a la noción de utilizar el puntaje total como una medida apropiada de habilidad.
+
+En la lógica IRT podríamos decir que cada ítem de la prueba es un mundo aparte y su análisis se realiza de manera aislada. Una vez teniendo claras las características del ítem podemos "puntuar" a los sujetos utilizando algunas técnicas.
+
+Para entender la formulación matemática del IRT se vuelve necesario una pequeña introducción las funciones exponenciales y la constante Euler ($e$).
+
+**INSERTAR INTRODUCCION A EULER**
+
+$z$
+
+## **Formulación matemática simple**
+
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| Forma 1                                                                                     | Forma 2                                                                                     |
++=============================================================================================+=============================================================================================+
+| $$                                                                                          | $$                                                                                          |
+| P(y = 1|z) = \frac{e^z}{1+e^z}                                                              | P(y = 1|z) = \frac{1}{1+e^{-z}}                                                             |
+| $$                                                                                          | $$                                                                                          |
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| Donde:                                                                                      | Donde:                                                                                      |
+|                                                                                             |                                                                                             |
+| -   $P(y=1|z)$ = La probabilidad de que el resultado sea = 1, dado z (condición bayesiana). | -   $P(y=1|z)$ = La probabilidad de que el resultado sea = 1, dado z (condición bayesiana). |
+|                                                                                             |                                                                                             |
+| -   $e$ = constante de euler.                                                               | -   $e$ = constante de euler.                                                               |
+|                                                                                             |                                                                                             |
+| -   $z$ = condición.                                                                        | -   $z$ = condición.                                                                        |
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+
+En general se utiliza la forma 1 ya que es más clara de visualizar.
+
+Lo que va a cambiar entre los modelos IRT es qué es el z.
+
+## **Supuestos de IRT**
+
+1.  **Monotonía**: a medida que aumenta el nivel de habilidad en la dimensión medida mayor es la probabilidad de responder correctamente.
+
+2.  **Unidimensionalidad**: existe una variable latente dominante que se está midiendo y esta latente es lo que explica las respuestas observadas para cada ítem.
+
+3.  **Independencia local**: las respuestas entregadas para los ítems son independientes entre sí dada un cierto nivel de habilidad, es decir, responder bien un ítem no te va a ayudar a responder bien otro de los ítems.
+
+4.  **Invarianza**: no existen razones para pensar que existen manifestaciones distintas de la habilidad medida entre personas, es decir, la misma función aplicaría para toda la población.
+
+## **Introducción a los parámetros**
+
+Para reemplazar la variable z, mencionada anteriormente en la formulación matemática, existen 5 parámetros que alteran la curva del modelo de alguna manera.
+
+Esos 5 parámetros se diferencian en 2 tipos:
+
+-   Parámetros de los evaluados (p).
+
+-   Parámetros de los ítems (i).
+
+**Parámetros de los evaluados**
+
+Es solo 1 parámetro que se le llama habilidad y es simbolizado como $\theta_p$.
+
+**Parámetros de los ítems**
+
+1.  **Dificultad** ($b_i$):
+    -   **Matemáticamente**: altera dónde está el centro de la curva, es decir, el nivel de habilidad ($\theta$) donde la probabilidad de acierto es 0.5.
+
+    -   **Conceptualmente**: marca la habilidad que necesitaría una persona para tener más posibilidades de tener la respuesta correcta que incorrecta $P(correcta)>P(incorrecta)$.
+2.  **Discriminación** ($a_i$):
+    -   **Matemáticamente**: altera la pendiente de la curva, es decir, a mayor discriminación se necesita un mayor nivel de habilidad para responder la respuesta correctamente.
+
+    -   **Conceptualmente**: Un ítem que discrimina mejor diferencia mejor entre un alumno de alta habilidad que de baja habilidad.
+3.  **Adivinación** ($c_i$):
+    -   **Matemáticamente**: altera la altura inicial de la curva, es decir, el punto donde el eje "x" es 0 genera un "y" mayor a 0.
+
+    -   **Conceptualmente**: como queremos explicar la probabilidad de acierto dado el nivel de habilidad de la persona de forma lo más aislada posible debemos descartar o considerar en la ecuación la posibilidad de que el alumno simplemente le haya achuntado. Esto se realiza "regalandole" a todos los sujetos una pequeña probabilidad de base.
+
+    -   Otra forma de pensar este parámetro es que van a existir casos de **falsos positivos**, donde vas a tener la pregunta correcta sin tener la habilidad suficiente para tener esa pregunta correcta, por lo tanto, se aumenta un poco la probabilidad basal para considerar este efecto.
+4.  **Inatención** ($d_i$): altera la altura final de la curva (el techo).
+    -   **Matemáticamente**: altera la altura final de la curva, es decir, el punto donde el eje "x" es infinito genera un "y" menor a 1.
+
+    -   **Conceptualmente**: como queremos explicar la probabilidad de acierto dado el nivel de habilidad de la persona de forma lo más aislada posible debemos descartar o considerar en la ecuación la posibilidad de que el alumno no esté prestando atención por algún factor externo a su habilidad. Esto se realiza "quitandole" a todos los sujetos una pequeña probabilidad de base.
+
+    -   Otra forma de pensar este parámetro es que van a existir casos de **falsos negativos**, donde vas a tener la pregunta incorrecta teniendo la habilidad suficiente para tener esa pregunta correcta, por lo tanto, se aumenta un poco la probabilidad basal para considerar este efecto.
+
+Dependiendo de cuántos parámetros tenga el modelo se denominan como 1PL, 2PL, 3PL o 4PL.
+
+Una idea que es importante para entender estos modelos es la diferencia en cuando un parámetro actúa como variable y como valor constante. La realidad oculta de los modelos es que todos poseen todos los parámetros en sus equaciones, la diferencia real entre los modelos es si estos parámetros son constantes o variables.
+
+Al presentar los modelos a continuación se presentará la versión reducida con solo los parámetros variables y la versión completa que incluye los parámetros constantes implícitos.
+
+## Formula completa IRT hasta 4PL
+
+$$
+P(y=1|\theta_p;b_i,a_i,c_i,d_i) = c_i + (d_i-c_i)\left(\frac{e^{a_i(\theta_p-b_i)}}{1 + e^{a_i(\theta_p-b_i)}}\right)
+$$
+
+Donde:
+
+-   $P(y=1|\theta_p;b_i,a_i,c_i,d_i)$ = probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p; y la dificultad, discriminación, posibilidad de adivinación e inatención para el ítem i.
+-   $\theta_p$ = habilidad del estudiante p.
+-   $a_i$= discriminación del ítem i.
+-   $b_i$= dificultad del ítem i.
+-   $c_i$= posibilidad de adivinación para el ítem i.
+-   $d_i$= posibilidad de inatención para el ítem i.
+
+## 1PL - Modelo Rasch
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+| Versión reducida                                                                                                                                   | Versión completa                                                                                                                                   |
++:===================================================================================================================================================+:===================================================================================================================================================+
+| $$                                                                                                                                                 | $$                                                                                                                                                 |
+|  P(y = 1|\theta_p;b_i) = \frac{e^{(\theta_p-b_i)}}{1+e^{(\theta_p-b_i)}}                                                                           | P(y=1|\theta_p;b_i) = 0 + (1-0)\left(\frac{e^{1(\theta_p-b_i)}}{1 + e^{1(\theta_p-b_i)}}\right)                                                    |
+| $$                                                                                                                                                 | $$                                                                                                                                                 |
++----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+| Donde:                                                                                                                                             | Donde:                                                                                                                                             |
+|                                                                                                                                                    |                                                                                                                                                    |
+| -   $P(y=1|\theta_p;b_i)$ = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p y la dificultad del ítem i. | -   $P(y=1|\theta_p;b_i)$ = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p y la dificultad del ítem i. |
+|                                                                                                                                                    |                                                                                                                                                    |
+| -   $e$ = constante de euler.                                                                                                                      | -   $e$ = constante de euler.                                                                                                                      |
+|                                                                                                                                                    |                                                                                                                                                    |
+| -   $\theta_p$ = nivel de habilidad de la dimensión medida del estudiante/participante p.                                                          | -   $\theta_p$ = nivel de habilidad de la dimensión medida del estudiante/participante p.                                                          |
+|                                                                                                                                                    |                                                                                                                                                    |
+| -   $b_i$ = dificultad del ítem i.                                                                                                                 | -   $b_i$ = dificultad del ítem i.                                                                                                                 |
+|                                                                                                                                                    |                                                                                                                                                    |
+|                                                                                                                                                    | -   $a_i$ = 1                                                                                                                                      |
+|                                                                                                                                                    |                                                                                                                                                    |
+|                                                                                                                                                    | -   $c_i$ = 0                                                                                                                                      |
+|                                                                                                                                                    |                                                                                                                                                    |
+|                                                                                                                                                    | -   $d_i$ = 1                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Existe una diferencia sutil entre ejecutar un modelo 1PL y Rasch que se aprecia en las siguientes ecuaciones:
+
++-------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rasch                                                                         | 1PL                                                                                                                                                                                                                                 |
++:=============================================================================:+:===================================================================================================================================================================================================================================:+
+| $$                                                                            | $$                                                                        P(y = 1|\theta_p,b_i) = \frac{e^{1.7(\theta_p-b_i)}}{1+e^{1.7(\theta_p-b_i)}}                                                                          $$ |
+|    P(y = 1|\theta_p,b_i) = \frac{e^{1(\theta_p-b_i)}}{1+e^{1(\theta_p-b_i)}}  |                                                                                                                                                                                                                                     |
+|                                       $$                                      |                                                                                                                                                                                                                                     |
++-------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+El **modelo 1PL** el parámetro **discriminación** es constante, pero puede tomar **cualquier** **valor** (1.7 en el ejemplo).
+
+El **modelo Rasch** siempre va a poseer **discriminación = 1**.
+
+## 2PL
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Versión reducida                                                                                                                                                         | Versión completa                                                                                                                                                         |
++:=========================================================================================================================================================================+:=========================================================================================================================================================================+
+| $$                                                                                                                                                                       | $$                                                                                                                                                                       |
+| P(y=1|\theta_p;b_i,a_i) = \frac{e^{a_i(\theta_p-b_i)}}{1 + e^{a_i(\theta_p-b_i)}}                                                                                        | P(y=1|\theta_p;b_i,c_i) = 0 + (1-0)\left(\frac{e^{a_i(\theta_p-b_i)}}{1 + e^{a_i(\theta_p-b_i)}}\right)                                                                  |
+| $$                                                                                                                                                                       | $$                                                                                                                                                                       |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Donde:                                                                                                                                                                   | Donde:                                                                                                                                                                   |
+|                                                                                                                                                                          |                                                                                                                                                                          |
+| -   $P(y=1|\theta_p;b_i,c_i)$ = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p; y la dificultad y discriminación del ítem i. | -   $P(y=1|\theta_p;b_i,c_i)$ = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p; y la dificultad y discriminación del ítem i. |
+|                                                                                                                                                                          |                                                                                                                                                                          |
+| -   $e$ = constante de euler.                                                                                                                                            | -   $e$ = constante de euler.                                                                                                                                            |
+|                                                                                                                                                                          |                                                                                                                                                                          |
+| -   $\theta_p$ = nivel de habilidad de la dimensión medida del estudiante/participante p.                                                                                | -   $\theta_p$ = nivel de habilidad de la dimensión medida del estudiante/participante p.                                                                                |
+|                                                                                                                                                                          |                                                                                                                                                                          |
+| -   $b_i$ = dificultad del ítem i.                                                                                                                                       | -   $b_i$ = dificultad del ítem i.                                                                                                                                       |
+|                                                                                                                                                                          |                                                                                                                                                                          |
+| -   $a_i$ = discriminación del ítem i.                                                                                                                                   | -   $a_i$ = discriminación del ítem i.                                                                                                                                   |
+|                                                                                                                                                                          |                                                                                                                                                                          |
+|                                                                                                                                                                          | -   $c_i$ = 0                                                                                                                                                            |
+|                                                                                                                                                                          |                                                                                                                                                                          |
+|                                                                                                                                                                          | -   $d_i$ = 1                                                                                                                                                            |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## 3PL
+
+En 3PL se presenta solo la fórmula del modelo ya que se necesita mostrar el 1 asociado a la inatención siempre.
+
+$$
+P(y=1|\theta_p;b_i,a_i,c_i) = c_i + (1-c_i) \left(\frac{e^{a_i(\theta_p-b_i)}}{1 + e^{a_i(\theta_p-b_i)}}\right)
+$$
+
+Donde:
+
+-   $P(y=1|\theta_p;b_i,a_i,c_i)$ = Probabilidad de tener el ítem correcto considerando el nivel de habilidad del estudiante p; y la dificultad, discriminación y posibilidad de adivinación para el ítem i.
+
+-   $e$ = constante de euler.
+
+-   $\theta_p$ = nivel de habilidad de la dimensión medida del estudiante/participante p.
+
+-   $b_i$ = dificultad del ítem i.
+
+-   $a_i$ = discriminación del ítem i.
+
+-   $c_i$ = adivinación del ítem i.
+
+## Curvas características de los ítem (ICC)
+
+-   **Eje x**: escala de habilidad de los sujetos ($\theta$) - unidad logit.
+
+-   **Eje y**: Probabilidad de marcar correcto el ítem.
+
+## Curvas de información
+
+**Para los ítems:**
+
++-----------------------------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| 1PL                                                       | 2PL                                                          | 3PL                                                                                            |
++===========================================================+==============================================================+================================================================================================+
+| $$                                                        | $$                                                           | $$                                                                                             |
+| I_i(\theta) = D^2\ P_i(\theta, b_i)\ Q_i(\theta, b_i)     | I_i(\theta) = D^2\ a_i^2\ P_i(\theta, b_i)\ Q_i(\theta, b_i) | I_{i\theta} = \frac{D^2\ a_i^2\ Q_i(\theta, b_i)\ (P_{i\theta}- c_i)^2}{P_{i\theta}(1- c_i)^2} |
+| $$                                                        | $$                                                           | $$                                                                                             |
++-----------------------------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| Donde:                                                    | Donde:                                                       | Donde:                                                                                         |
+|                                                           |                                                              |                                                                                                |
+| -   $\theta$ = nivel de **habilidad**.                    | -   $\theta$ = nivel de **habilidad**.                       | -   $\theta$ = nivel de **habilidad**.                                                         |
+|                                                           |                                                              |                                                                                                |
+| -   $b_i$ = **dificultad** del ítem i.                    | -   $b_i$ = **dificultad** del ítem i.                       | -   $b_i$ = **dificultad** del ítem i.                                                         |
+|                                                           |                                                              |                                                                                                |
+| -   $D$ = constante 1.702.                                | -   $D$ = constante 1.702.                                   | -   $D$ = constante 1.702.                                                                     |
+|                                                           |                                                              |                                                                                                |
+| -   $P_i$ = probabilidad de tener el ítem i **correcto**. | -   $a_i$ = **discriminación** del ítem i.                   | -   $a_i$ = **discriminación** del ítem i.                                                     |
+|                                                           |                                                              |                                                                                                |
+| -   $Q_i$ = probabilidad de tener el ítem **incorrecto**. | -   $P_i$ = probabilidad de tener el ítem i **correcto**.    | -   $c_i$ = adivinación del ítem i.                                                            |
+|                                                           |                                                              |                                                                                                |
+|                                                           | -   $Q_i$ = probabilidad de tener el ítem **incorrecto**.    | -   $P_i$ = probabilidad de tener el ítem i **correcto**.                                      |
+|                                                           |                                                              |                                                                                                |
+|                                                           |                                                              | -   $Q_i$ = probabilidad de tener el ítem **incorrecto**.                                      |
++-----------------------------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+
+**Para la prueba:**
+
+$$
+IT_\theta = \sum_{i=1}^n I_{i\theta} 
+$$
+
+Donde:
+
+-   $IT_\theta$ = Información de la prueba para el nivel de habilidad $\theta$.
+
+-   $n$ = cantidad de ítems.
+
+-   $I_{i\theta}$ = Información para el ítem i para el nivel de habilidad $\theta$
+
+iθGrafico:
+
+-   **Eje x**: escala de habilidad de los sujetos ($\theta$) - unidad logit.
+
+-   **Eje y**: Información.
+
+## Wrightmaps
+
+Parte superior:
+
+-   **Eje x:** escala de habilidad de los sujetos ($\theta$) - unidad logit.
+
+-   **Eje y**: Frecuencia de alumnos en dicho nivel de habilidad.
+
+Parte inferior:
+
+-   **Eje x**: dificultad de los ítems en escala de habilidad ($\theta$) - unidad logit.
+
+-   **Eje y**: ítems - categórico.
+
+## **Ventajas y Limitaciones**
+
+**Ventajas:**
+
+-   La estimación de habilidad no depende del resto de la muestra.
+
+-   La estimación de habilidad no depende del grupo particular de ítems que fue administrado.
+
+-   Permite modelar los datos a partir de las características particulares de cada ítem.
+
+-   Genera una misma escala para la dificultad de los ítems y las habilidades de los individuos haciendo comparables ambas medidas. Esto es de interés para procedimientos adicionales (Ej: Standard Setting).
+
+**Limitaciones:**
+
+-   Requiere el cumplimiento de supuestos más fuertes.
+
+-   Requiere más datos para obtener estimaciones estables y confiables.
+
+-   Es computacionalmente más costoso.
+
+## Otros modelos que nacen del IRT
+
+-   Modelo de respuesta graduada (GRM) (Samejima, 1962, 1972; Muraki,1990).
+
+-   Modelo de créditos parciales (PCM) (Masters, 1982).
+
+-   Modelo de respuesta nominal (Bock, 1972).
+
+```{ojs}
+//| echo: false
+
+import {slider} from "@jashkenas/inputs";
+```
+
+```{ojs}
+//| echo: false
+
+viewof b = slider({
+    min: -2,
+    max: 2,
+    step: 0.1,
+    value: 0,
+    title: "Dificultad (b)"
+});
+```
+
+```{ojs}
+//| echo: false
+
+md`
+  ${tex.block`
+    P(y=1|\theta_p;b_i) = \left( \frac{1}{ 1 + e^{-(x - ${b})}} \right)
+  `}
+`
+```
+
+
+
+```{ojs}
+//| echo: false
+
+x = Array.from({ length: (3 - (-3)) / 0.01 + 1 }, (_, i) => -3 + i * 0.01);
+y = x.map((x) => 1/(1 + Math.exp(-(x - b))));
+
+
+// Plot the data
+Plot.plot({
+  marks: [
+    Plot.ruleY([0]),
+    Plot.ruleX([0]),
+    Plot.line(
+      x.map((_, i) => ({ x: x[i], y: y[i] })),
+      { x: "x", y: "y", stroke: "steelblue" }
+    ),
+    // Add a bold dot directly at x = b, y = 0.5
+    Plot.dot([{ 
+      x: b, 
+      y: 0.5 
+    }], {
+      x: "x", 
+      y: "y", 
+      fill: "red", 
+      r: 5  // Increase the radius to make it a bold dot
+    })
+  ],
+  x: {
+    label: "x-axis",
+    domain: [-3, 3],
+    grid: true
+  },
+  y: {
+    label: "y-axis",
+    domain: [0, 1],
+    grid: true
+  }
+})
+```
+
+:::: {layout="[ 50, 50 ]"}
+
+::: {#first-column}
+```{ojs}
+//| echo: false
+
+viewof a = slider({
+    min: -3,
+    max: 3,
+    step: 0.1,
+    value: 1,
+    title: "Discriminación (a)"
+});
+
+
+```
+:::
+
+::: {#second-column}
+```{ojs}
+//| echo: false
+
+viewof b = slider({
+    min: -2,
+    max: 2,
+    step: 0.1,
+    value: 0,
+    title: "Dificultad (b)"
+});
+```
+:::
+
+::::
+```{ojs}
+//| echo: false
+
+md`
+  ${tex.block`
+    P(y=1|\theta_p;b_i,a_i) = \left( \frac{1}{ 1 + e^{-(${a} (x - ${b}))}} \right)
+  `}
+`
+```
+
+```{ojs}
+//| echo: false
+
+x = Array.from({ length: (3 - (-3)) / 0.01 + 1 }, (_, i) => -3 + i * 0.01);
+y = x.map((x) => 1/(1 + Math.exp(-(a * (x - b)))));
+
+// Plot the data
+Plot.plot({
+  marks: [
+    Plot.ruleY([0]),
+    Plot.ruleX([0]),
+    Plot.line(
+      x.map((_, i) => ({ x: x[i], y: y[i] })),
+      { x: "x", y: "y", stroke: "steelblue" }
+    ),
+    // Add a bold dot directly at x = b, y = 0.5
+    Plot.dot([{ 
+      x: b, 
+      y: 0.5 
+    }], {
+      x: "x", 
+      y: "y", 
+      fill: "red", 
+      r: 5  // Increase the radius to make it a bold dot
+    })
+  ],
+  x: {
+    label: "x-axis",
+    domain: [-3, 3],
+    grid: true
+  },
+  y: {
+    label: "y-axis",
+    domain: [0, 1],
+    grid: true
+  }
+})
+```
+
+
+:::: {layout="[ 50, 50 ]"}
+
+::: {#first-column}
+```{ojs}
+//| echo: false
+
+viewof a = slider({
+    min: -2,
+    max: 2,
+    step: 0.1,
+    value: 1,
+    title: "Discriminación (a)"
+});
+
+viewof b = slider({
+    min: -2,
+    max: 2,
+    step: 0.1,
+    value: 0,
+    title: "Dificultad (b)"
+});
+```
+:::
+
+::: {#second-column}
+```{ojs}
+//| echo: false
+
+viewof c = slider({
+    min: -1,
+    max: 1,
+    step: 0.1,
+    value: 0,
+    title: "Adivinación (c)"
+});
+```
+:::
+::::
+
+
+```{ojs}
+//| echo: false
+
+md`
+  ${tex.block`
+    P(y=1|\theta_p;b_i,a_i,c_i) = ${c} + \left( \frac{1-${c}}{ 1 + e^{-(${a} (x - ${b}))}} \right)
+  `}
+`
+```
+
+```{ojs}
+//| echo: false
+
+x = Array.from({ length: (3 - (-3)) / 0.01 + 1 }, (_, i) => -3 + i * 0.01);
+y = x.map((x) => c + ((1-c)/(1 + Math.exp(-(a * (x - b))))));
+
+
+// Plot the data
+Plot.plot({
+  marks: [
+    Plot.ruleY([0]),
+    Plot.ruleX([0]),
+    Plot.line(
+      x.map((_, i) => ({ x: x[i], y: y[i] })),
+      { x: "x", y: "y", stroke: "steelblue" }
+    ),
+    // Add a bold dot directly at x = b, y = 0.5
+    Plot.dot([{ 
+      x: b, 
+      y: 0.5 + (c/2) 
+    }], {
+      x: "x", 
+      y: "y", 
+      fill: "red", 
+      r: 5  // Increase the radius to make it a bold dot
+    })
+  ],
+  x: {
+    label: "theta",
+    domain: [-3, 3],
+    grid: true
+  },
+  y: {
+    label: "P()",
+    domain: [0, 1],
+    grid: true
+  }
+})
+```

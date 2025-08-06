@@ -1,0 +1,183 @@
+---
+title: "Estándares para pruebas educativas y psicológicas"
+number-depth: 1
+---
+
+**Fuente**: American Educational Research Association. (2018). Estándares para pruebas educativas y psicológicas. American Educational Research Association.
+
+::: panel-tabset
+## VALIDEZ
+
+La validez refiere al grado en que la evidencia y teoría apoyan las interpretaciones y usos que se quieren dar a un test particular.
+
+### ESTÁNDARES DE VALIDEZ
+
+Los estándares para pruebas educativas y psicológicas es un documento generado por la APA que establece algunas directrices mínimas para establecer o revisar críticamente la validez de un instrumento. En la siguiente sección se presentan los 25 estándares de validez destacando algunos que resultan particularmente importantes para el que-hacer de la unidad de análisis.
+
+### Establecimiento de usos e interpretaciones previstos
+
+-   **Estándar 1.1**: **El desarrollador de la prueba debe establecer claramente cómo se tiene previsto que se interpreten y en consecuencia se utilicen los puntajes de la prueba. Las poblaciones para las que está prevista la prueba deben definirse claramente, y el constructo o los constructos que la prueba tiene por objeto evaluar deben describirse claramente.**
+-   **Estándar 1.2:** Se debe presentar una razón fundamental para cada interpretación prevista de los puntajes de la prueba para un uso determinado, junto con un resumen de la evidencia y la teoría que inciden en la interpretación prevista.
+-   **Estándar 1.3:** **Si la validez para alguna interpretación común o probable para un uso dado no se ha evaluado, o si dicha interpretación no es coherente con la evidencia disponible, ese hecho debe aclararse y se debe advertir enfáticamente a los posibles usuarios sobre hacer interpretaciones sin fundamento.**
+-   **Estándar 1.4:** Si el puntaje de una prueba se interpreta para un uso determinado de una manera que no ha sido validada, corresponde al usuario justificar la nueva interpretación para ese uso, proporcionando una razón fundamental y reuniendo nueva evidencia, si fuera necesario.
+-   **Estándar 1.5:** Cuando se indica claramente o se deja implícito que una interpretación recomendada de los puntajes de la prueba para un determinado uso dará un resultado específico, se debe presentar el fundamento para prever ese resultado, junto con la evidencia relevante.
+-   **Estándar 1.6:** Cuando el uso de una prueba se recomienda aduciéndose que la prueba o el programa de pruebas propiamente dicho dará por resultado algún beneficio indirecto, además de la utilidad de la información de la interpretación de los puntajes de la prueba propiamente dichos, quien hace la recomendación debe explicitar la razón fundamental para prever el beneficio indirecto. Deben proporcionarse los argumentos lógicos o teóricos y la evidencia empírica para el beneficio indirecto. Debe darse la debida importancia a cualquier conclusión contradictoria en la bibliografía científica, incluyendo conclusiones que sugieran resultados indirectos importantes que no sean los pronosticados
+-   **Estándar 1.7:** Si se afirma que el desempeño en una prueba, o una decisión tomada a partir de este, se ve esencialmente afectado por la práctica y la orientación, entonces se debe documentar la propensión del desempeño en la prueba a cambiar con estas formas de instrucción
+
+### Cuestiones respecto de las muestras y contextos utilizados en la validación
+
+-   **Estándar 1.8:** La composición de cualquier muestra de examinandos de la cual se obtiene evidencia de validación debe describirse con tanto detalle como sea práctico y aceptable, incluidas características sociodemográficas y de desarrollo relevantes
+-   **Estándar 1.9:** Cuando una validación se basa en parte en las opiniones o decisiones de jueces, observadores o calificadores expertos, se deben describir completamente los procedimientos para seleccionar a dichos expertos y para obtener los juicios o calificaciones. Deben presentarse las calificaciones y la experiencia de los jueces. La descripción de procedimientos debe incluir cualquier capacitación e instrucciones proporcionadas, debe indicar si los participantes llegaron a sus decisiones de manera independiente y debe reportar el nivel de acuerdo alcanzado. Si los participantes interactuaron entre sí o intercambiaron información, deben establecerse los procedimientos mediante los cuales pueden haber ejercido influencia entre ellos.
+-   **Estándar 1.10:** Cuando la evidencia de validación incluye análisis estadísticos de los resultados de la prueba, ya sean solos o junto con datos u otras variables, las condiciones en que se recopilaron los datos deben describirse con detalle suficiente para que los usuarios puedan juzgar la relevancia de las conclusiones estadísticas para las condiciones locales. Se debe prestar atención a cualquier característica de una recopilación de datos de validación que probablemente difiera de las condiciones de prueba operativas típicas y que podría plausiblemente influir en el desempeño en la prueba
+
+### Formas específicas de evidencia de validación
+
+### (a) Evidencia orientada al contenido
+
+-   **Estándar 1.11:** Cuando la razón fundamental para la interpretación de los puntajes de la prueba para un uso dado se basa en parte en lo apropiado del contenido de la prueba, los procedimientos seguidos en la especificación y generación del contenido de la prueba deben describirse y justificarse con referencia a la población que se prevé evaluar y al constructo que la prueba tiene por objeto medir o el dominio que tiene por objeto representar. Si la definición del contenido muestreado incorpora criterios como la importancia, frecuencia o criticidad, estos criterios también deben explicarse y justificarse con claridad.
+
+### (b) Evidencia respecto de los procesos cognitivos
+
+-   **Estándar 1.12:** Si la razón fundamental para la interpretación de los puntajes para un uso dado depende de premisas sobre los procesos psicológicos u operaciones cognitivas de los examinandos, debe proporcionarse la evidencia teórica o empírica que respalde esas premisas. Cuando enunciados sobre los procesos empleados por observadores o calificadores sean parte del argumento de validez, debe proporcionarse información similar
+
+### (c) Evidencia respecto de la estructura interna
+
+-   **Estándar 1.13:** Si la razón fundamental de la interpretación de los puntajes de una prueba para un uso dado depende de premisas sobre las relaciones entre ítems de la prueba o entre partes de la prueba, debe proporcionarse evidencia sobre la estructura interna de la prueba
+-   **Estándar 1.14:** Cuando se sugiere la interpretación de sub-puntajes, diferencias de puntajes o perfiles, debe proporcionarse la razón fundamental y la evidencia relevante que respalde dicha interpretación. Cuando se desarrollan puntajes compuestos, se deben dar la base y la razón fundamental para llegar a los valores compuestos
+-   **Estándar 1.15:** Cuando se sugiere la interpretación del desempeño en ítems específicos, o pequeños subconjuntos de ítems, debe proporcionarse la razón fundamental que respalde dicha interpretación. Cuando la interpretación de respuestas a ítems individuales es probable pero no recomendada por el desarrollador, se debe advertir al usuario de no hacer dichas interpretaciones.
+
+### (d) Evidencia respecto de las relaciones con constructos relacionados conceptualmente
+
+-   **Estándar 1.16:** Cuando la evidencia de validación incluye análisis empíricos de respuestas a ítems de la prueba junto con datos sobre otras variables, debe proporcionarse la razón fundamental para seleccionar las variables adicionales. Cuando sea apropiado y viable, debe presentarse o citarse la evidencia concerniente a constructos representados por otras variables, así como sus propiedades técnicas. Debe prestarse atención a cualquier fuente probable de dependencia (o falta de independencia) entre variables distintas de las dependencias entres los constructos que representan.
+
+### (e) Evidencia respecto de las relaciones con criterios
+
+-   **Estándar 1.17:** Cuando la validación se basa en evidencia de que los puntajes de la prueba están relacionados con una o más variables de criterios, debe reportarse información sobre la pertinencia y la calidad técnica de los criterios
+-   **Estándar 1.18:** Cuando se asevera que un determinado nivel de desempeño en la prueba predice el desempeño adecuado o inadecuado del criterio, se debe proporcionar información sobre los niveles de desempeño del criterio asociados con niveles dados de puntajes de la prueba
+-   **Estándar 1.19:** Si se usan puntajes de la prueba junto con otras variables para predecir algún resultado o criterio, los análisis basados en modelos estadísticos de la relación predictor-criterio deben incluir esas variables relevantes adicionales junto con los puntajes de la prueba.
+-   **Estándar 1.20:** Cuando las medidas del tamaño del efecto (p. ej., correlaciones entre puntajes de la prueba y medidas de criterios, diferencias de puntajes medios estandarizados de la prueba entre subgrupos) se usan para obtener inferencias que van más allá de describir la muestra o las muestras sobre las que se han recopilado datos, deben reportarse índices del grado de incertidumbre asociado con estas medidas (p. ej., errores estándares, intervalos de confianza o pruebas de significación).
+-   **Estándar 1.21:** Cuando se realizan ajustes estadísticos, como aquellos para restricción de rango o atenuación, se deben reportar tanto los coeficientes ajustados como los no ajustados, así como el procedimiento específico utilizado y todas las estadísticas utilizadas en el ajuste. Las estimaciones de la relación constructo-criterio que eliminan los efectos del error de medición en la prueba deben reportarse claramente como estimaciones ajustadas.
+-   **Estándar 1.22:** Cuando se utiliza un metaanálisis como evidencia de la fortaleza de una relación prueba-criterio, las variables de prueba y criterio en la situación local deben ser comparables con las de los estudios resumidos. Si la investigación relevante incluye evidencia creíble de que cualquier otra característica específica de la aplicación de la prueba puede influir en la fortaleza de la relación prueba-criterio, debe reportarse la correspondencia entre esas características en la situación local y en el metaanálisis. Deben observarse explícitamente cualquier disparidad significativa que pudiera limitar la aplicabilidad de las conclusiones del metaanálisis a la situación local.
+-   **Estándar 1.23:** Cualquier evidencia meta-analítica utilizada para respaldar una interpretación prevista de los puntajes de la prueba debe describirse claramente, incluidas las elecciones metodológicas en la identificación y codificación de estudios, corrección de artefactos y examen de potenciales variables moderadoras. Deben presentarse las suposiciones hechas en la corrección de artefactos como falta de confiabilidad del criterio y restricción de rango, y deben aclararse las consecuencias de esas suposiciones.
+-   **Estándar 1.24:** Si se recomienda una prueba para usar en la asignación de personas a tratamientos alternativos, y si los resultados de esos tratamientos pueden compararse razonablemente sobre un criterio en común, entonces, cuando sea viable, debe proporcionarse evidencia de respaldo de los resultados diferenciales.
+
+### (f) Evidencia basada en consecuencias de las pruebas
+
+-   **Estándar 1.25:** Cuando surgen consecuencias imprevistas del uso de la prueba, debe intentarse investigar si dichas consecuencias surgen de la sensibilidad de la prueba a características distintas de las que tiene previsto evaluar o de que la prueba no logra representar completamente el constructo previsto.
+
+## CONFIABILIDAD
+
+La confiabilidad es una propiedad de los puntajes del instrumento que indica el grado de estabilidad, precisión o consistencia que manifiesta la medición de un atributo determinado.
+
+**En contextos educacionales un puntaje confiable suele cumplir las siguientes premisas:**
+
+1.  El puntaje se encuentra poco afectado por error (es precisa).
+2.  Los resultados del examinado no son demasiado sensibles a variaciones en el instrumento o proceso de medición (es replicable).
+
+### Confiabilidad vs. validez
+
+1.  La confiabilidad es un estándar técnico (matemático, metodológico si se quiere) que es requisito para la validez.
+2.  Lo anterior implica que el uso de un puntaje no puede ser válido si no es confiable.
+3.  Un puntaje puede ser confiable, pero no válido para determinado uso.
+
+### ESTÁNDARES DE CONFIABILIDAD
+
+-   **Estándar 2.0:** **Se debe proporcionar evidencia apropiada de confiabilidad/precisión para la interpretación de cada uso previsto de los puntajes.**
+
+### Especificaciones para replicaciones del procedimiento de evaluación
+
+-   **Estándar 2.1:** El rango de replicaciones sobre el que se evalúa la confiabilidad/precisión debe indicarse claramente, junto con una justificación para la elección de esta definición, dada la situación de evaluación.
+-   **Estándar 2.2:** La evidencia proporcionada para la confiabilidad/precisión de los puntajes debe ser coherente con el dominio de replicaciones asociadas con los procedimientos de evaluación, y con las interpretaciones previstas para uso de los puntajes de la prueba. Evaluación de la confiabilidad/precisión
+-   **Estándar 2.3:** Para cada puntaje total, sub-puntaje o combinación de puntajes que deba interpretarse, deben reportarse estimaciones de índices relevantes de confiabilidad/ precisión.
+-   **Estándar 2.4:** Cuando la interpretación de puntajes de una prueba destaca diferencias entre dos puntajes observados de un individuo o dos promedios de un grupo, deben proporcionarse datos de confiabilidad/precisión, incluyendo errores estándares, para dichas diferencias.
+-   **Estándar 2.5:** **Los procedimientos de estimación de confiabilidad deben ser coherentes con la estructura de la prueba.**
+
+### Coeficientes de confiabilidad/generabilidad
+
+-   **Estándar 2.6:** Un coeficiente de confiabilidad o generabilidad (o error estándar) que aborda un tipo de variabilidad no debe interpretarse como intercambiable con índices que abordan otros tipos de variabilidad, a menos que sus definiciones de error de medida puedan considerarse equivalentes.
+-   **Estándar 2.7:** Cuando el juicio subjetivo entre en la calificación de la prueba, debe proporcionarse evidencia tanto de coherencia entre los evaluadores en la calificación como de coherencia dentro del individuo examinado en mediciones repetidas. Debe hacerse una distinción clara entre datos de confiabilidad basados en (a) paneles independientes de evaluadores que califican los mismos desempeños o productos, (b) un solo panel que califica desempeños sucesivos o nuevos productos, y (c) paneles independientes que califican desempeños sucesivos o nuevos productos.
+
+### Factores que afectan la confiabilidad/precisión
+
+-   **Estándar 2.8:** Cuando las pruebas de respuesta construida se califican localmente, los datos de confiabilidad/ precisión deben reunirse y reportarse para la calificación local cuando hay disponibles muestras de tamaño adecuado.
+-   **Estándar 2.9:** Cuando una prueba está disponible en versiones largas y cortas, la evidencia de confiabilidad/ precisión debe reportarse para puntajes en cada versión, preferentemente basada en administraciones independientes de cada versión con muestras independientes de examinandos.
+-   **Estándar 2.10:** Cuando se permitan variaciones significativas en las pruebas o procedimientos de administración de pruebas, deben proporcionarse análisis de confiabilidad/precisión separados para puntajes producidos en cada variación importante si hay disponibles tamaños de la muestra adecuados.
+-   **Estándar 2.11:** **Los editores de la prueba deben proporcionar estimaciones de confiabilidad/precisión tan pronto como sea viable para cada subgrupo relevante para el que se recomienda la prueba.**
+-   **Estándar 2.12:** Si una prueba se propone para utilizarse en varios grados o en un rango de edades, y si se proporcionan normas separadas para cada grado o rango de edades, deben proporcionarse los datos de confiabilidad/precisión para cada edad o subgrupo de nivel de grado, no solo para todos los grados o edades combinados.
+
+### Errores estándares de medida
+
+-   **Estándar 2.13:** El error estándar de medida, tanto general como condicional (si se reporta), debe proporcionarse en unidades de cada puntaje reportado.
+-   **Estándar 2.14:** **Cuando sea posible y corresponda, los errores estándares de medida condicionales deben reportarse en varios niveles de puntajes a menos que exista evidencia de que el error estándar es constante entre los niveles de puntajes. Cuando se especifican puntajes de corte para selección o clasificación, los errores estándares de medida deben reportarse en la proximidad de cada puntaje de corte.**
+-   **Estándar 2.15:** **Cuando existe evidencia creíble para esperar que los errores estándares de medida condicionales o funciones de información de prueba difieran sustancialmente para varios subgrupos, debe realizarse una investigación del alcance y el impacto de esas diferencias y reportarse tan pronto como sea viable.**
+
+### Coherencia de decisiones
+
+-   **Estándar 2.16:** Cuando una prueba o combinación de medidas se utiliza para tomar decisiones de clasificación, deben proporcionarse estimaciones del porcentaje de examinandos que se clasificarían de la misma manera en dos replicaciones del procedimiento.
+
+### Confiabilidad/precisión de medias de grupos
+
+-   **Estándar 2.17:** Cuando los puntajes promedio de la prueba para grupos son el centro de la interpretación propuesta de los resultados de la prueba, los grupos evaluados por lo general deben considerarse como una muestra de una población más grande, incluso si se evalúan todos los individuos examinados disponibles en el momento de la medición. En esos casos, debe reportarse el error estándar de la media de los grupos, porque refleja variabilidad debida al muestreo de individuos examinados, así como variabilidad debida a error de medida individual
+-   **Estándar 2.18:** Cuando la finalidad de la evaluación es medir el desempeño de grupos en lugar del de individuos, pueden asignarse aleatoriamente subconjuntos de ítems a diferentes submuestras de individuos examinados. Los datos se agregan entre submuestras y subconjuntos de ítems para obtener una medida del desempeño del grupo. Cuando se usan estos procedimientos para la evaluación de programas o descripciones de poblaciones, los análisis de confiabilidad/precisión deben tener en cuenta el esquema de muestreo.
+
+### Documentación de la confiabilidad/precisión
+
+-   **Estándar 2.19:** Cada método de cuantificación de la confiabilidad/precisión de puntajes debe describirse claramente y expresarse en términos de estadísticas apropiadas para el método. Deben reportarse los procedimientos de muestreo utilizados para seleccionar examinandos para análisis de confiabilidad/precisión y las estadísticas descriptivas sobre estas muestras, con sujeción a las obligaciones de privacidad cuando corresponda.
+-   **Estándar 2.20:** Si los coeficientes de confiabilidad se ajustan para restricción de rango o variabilidad, deben informarse el procedimiento de ajuste y los coeficientes tanto ajustados como no ajustados. Deben presentarse las desviaciones estándares del grupo efectivamente evaluado y de la población de destino, así como la justificación del ajuste.
+
+## IMPARCIALIDAD
+
+Imparcialidad es la característica de que una medición esté libre de influencias de variables que son ajenas o externas al constructo que se pretende medir.
+
+### ESTÁNDARES DE IMPARCIALIDAD
+
+**Estándar 3.0**: Todos los pasos en el proceso de evaluación, incluyendo diseño, validación, desarrollo, administración y procedimientos de calificación de la prueba, deben diseñarse de tal manera que minimicen la varianza irrelevante de constructo y promuevan las interpretaciones válidas de los puntajes para los usos previstos para todos los individuos examinados en la población prevista.
+
+### Diseño,desarrollo, administración y procedimientos de calificación de las pruebas que minimizan los obstáculos a interpretaciones válidas de los puntajes para la variedad más amplia posible de individuos y subgrupos relevantes
+
+**Estándar 3.1**: Los responsables del desarrollo, la revisión y la administración de la prueba deben diseñar todos los pasos del proceso de evaluación para promover interpretaciones válidas de los puntajes para los usos previstos de los puntajes para la variedad más amplia posible de individuos y subgrupos relevantes en la población prevista.
+
+**Estándar 3.2**: Los desarrolladores de la prueba son responsables de desarrollar pruebas que midan el constructo previsto y de minimizar el potencial de que las pruebas se vean afectadas por características irrelevantes del constructo, como características lingüísticas, comunicativas, cognitivas, culturales, físicas y otras.
+
+**Estándar 3.3**: Los responsables del desarrollo de la prueba deben incluir subgrupos relevantes en estudios de validez, confiabilidad/precisión y otros estudios preliminares utilizados cuando se construye la prueba.
+
+**Estándar 3.4**: Los examinandos deben recibir un trato comparable durante la administración y el proceso de calificación de la prueba.
+
+**Estándar 3.5**: Los desarrolladores de la prueba deben especificar y documentar disposiciones que se hayan hecho para la administración de la prueba y los procedimientos de calificación para eliminar obstáculos irrelevantes del constructo para todos los subgrupos relevantes en la población de examinandos.
+
+### Validez de las interpretaciones de los puntajes de las pruebas para los usos previstos para la población prevista de individuos examinados
+
+**Estándar 3.6**: Cuando evidencia creíble indique que los puntajes de la prueba pueden diferir en significado para subgrupos relevantes de la población prevista de individuos examinados, los desarrolladores y/o usuarios de la prueba son responsables de examinar la evidencia de validación de las interpretaciones de los puntajes para los usos previstos para individuos de esos subgrupos. Las leyes aplicables pueden definir lo que constituye una diferencia significativa en los puntajes de los subgrupos y qué acciones se llevan a cabo en respuesta a dichas diferencias.
+
+**Estándar 3.7**: Cuando la evidencia de validación relacionada con criterios se utiliza como base para predicciones de desempeño futuro basadas en puntajes de la prueba y los tamaños de la muestra son suficientes, los desarrolladores y/o usuarios de la prueba son responsables de evaluar la posibilidad de predicción diferencial para subgrupos relevantes para los que existe evidencia previa o teoría que sugiera predicción diferencial.
+
+**Estándar** **3.8**: Cuando las pruebas requieran la calificación de respuestas construidas, los desarrolladores y/o usuarios de la prueba deben reunir y reportar evidencia de la validez de las interpretaciones de puntajes para subgrupos relevantes en la población prevista de examinandos para los usos previstos de los puntajes de la prueba.
+
+### Adecuaciones para eliminar obstáculos irrelevantes del constructo y respaldar interpretaciones válidas de puntajes para sus usos previstos
+
+**Estándar** **3.9**: Los desarrolladores de la prueba y/o los usuarios de la prueba son responsables de desarrollar y proporcionar adecuaciones de la prueba, cuando corresponda y sea viable, para eliminar obstáculos irrelevantes del constructo que de otro modo interferirían con la capacidad de los individuos examinados de demostrar su situación respecto de los constructos de destino.
+
+**Estándar 3.10**: Cuando se permitan adecuaciones de la prueba, los desarrolladores de la prueba y/o usuarios de la prueba son responsables de documentar disposiciones estándares para usar la adecuación y para supervisar la implementación apropiada de la adecuación.
+
+**Estándar 3.11**: Cuando una prueba se cambia para eliminar obstáculos a la accesibilidad del constructo sometido a medición, los desarrolladores y/o usuarios de la prueba son responsables de obtener y documentar evidencia de la validez de las interpretaciones de los puntajes para los usos previstos de la prueba cambiada, cuando los tamaños de la muestra lo permitan
+
+**Estándar 3.12**: Cuando una prueba se traduce y adapta de un idioma a otro, los desarrolladores de la prueba y/o usuarios de la prueba son responsables de describir los métodos utilizados al establecer la adecuación de la adaptación y documentar la evidencia empírica y lógica para la validez de las interpretaciones de los puntajes de la prueba para el uso previsto.
+
+**Estándar 3.13**: Una prueba debe administrarse en el idioma que sea más relevante y apropiado para la finalidad de la prueba.
+
+**Estándar 3.14**: Cuando la prueba requiere el uso de un intérprete, el intérprete debe seguir procedimientos estandarizados y, en la medida en que sea viable, tener un nivel suficientemente bueno en el idioma y contenido de la prueba y la lengua nativa y la cultura del individuo examinado para traducir la prueba y los materiales de evaluación relacionados y explicar las respuestas de la prueba del individuo examinado, según sea necesario.
+
+### Protecciones contra las interpretaciones inapropiadas de los puntajes para los usos previstos
+
+**Estándar 3.15**: Los desarrolladores y editores de la prueba que afirman que una prueba puede ser usada con individuos examinados de subgrupos específicos son responsables de proporcionar la información necesaria para respaldar interpretaciones apropiadas de puntajes de la prueba para sus usos previstos para individuos de estos subgrupos.
+
+**Estándar 3.16**: Cuando investigación creíble indique que los puntajes de la prueba para algunos subgrupos relevantes se ven diferencialmente afectados por características irrelevantes del constructo de la prueba o de los individuos examinados, cuando sea legalmente aceptable, los usuarios de la prueba deben utilizar la prueba solo para esos subgrupos para los que existe evidencia suficiente de validez para respaldar las interpretaciones de los puntajes para los usos previstos.
+
+**Estándar 3.17**: Cuando se informen públicamente puntajes agregados para subgrupos relevantes —por ejemplo, hombres y mujeres, individuos de diferente nivel socioeconómico, individuos que difieren en cuanto a raza/origen étnico, individuos con diferentes orientaciones sexuales, individuos con características lingüísticas y culturales diversas, individuos con discapacidades, niños pequeños o adultos mayores— los usuarios de la prueba son responsables de proporcionar evidencia de comparabilidad y de incluir declaraciones de advertencia cuando la investigación creíble o la teoría indique que es posible que los puntajes de la prueba no tengan significado comparable entre estos subgrupos.
+
+**Estándar 3.18**: En la evaluación de individuos para fines de diagnóstico y/o colocación en un programa especial, los usuarios de la prueba no deben usar puntajes de la prueba como los únicos indicadores para caracterizar el funcionamiento, la competencia, las actitudes y/o las predisposiciones de un individuo. En cambio, deben utilizarse múltiples fuentes de información, deben considerarse explicaciones alternativas para el desempeño en la prueba, y el juicio profesional de alguien familiarizado con la prueba debe aplicarse a la decisión.
+
+**Estándar 3.19**: En contextos en los que la misma autoridad es responsable tanto de la provisión del plan de estudios como de las decisiones de alto riesgo basadas en la evaluación del dominio del plan de estudios por parte de los individuos examinados, estos últimos no deberían sufrir consecuencias negativas permanentes si la evidencia indica que no han tenido la oportunidad de aprender el contenido de la prueba
+
+**Estándar 3.20**: Cuando un constructo puede medirse de diferentes maneras que son iguales en su grado de representación del constructo y validez (incluyendo la ausencia de varianza irrelevante de constructo), los usuarios de la prueba deben considerar, entre otros factores, evidencia de diferencias de los subgrupos en los puntajes medios o en porcentajes de individuos examinados cuyos puntajes excedan los puntajes de corte, en la decisión de qué puntajes de prueba y/o de corte usar.
+:::

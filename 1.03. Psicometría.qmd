@@ -1,0 +1,43 @@
+---
+title: "Introducción a la Psicometría"
+subtitle: "Módulo teórico"
+---
+
+holi
+
+En disciplinas como la psicología, sociología o educación es de interés la medición de **constructos**, que son construcciones conceptuales (no fenómenos físicos) y, por tanto, no observables. La medición de dichos constructos se realiza mediante el uso de instrumentos (tests) que logran capturar efectos observables del constructo de interés.
+
+**Por ej.** Un test de matemáticas permite medir la habilidad en esta disciplina de un estudiante mediante su desempeño en dicho test, que es consecuencia del grado de habilidad que posee.
+
+El principal **problema** de asignar números a ciertas conductas es el poder **afirmar que ese puntaje refleja la habilidad o rasgo que se quiere medir**. De esto depende que podamos hacer inferencias correctas. Para lograr esto requerimos un modelo formal.
+
+**¿Qué es un modelo matemático?**
+
+Es una representación abstracta de la realidad, que busca describirla.![](images/psicometria_IV-1.png)
+
+Los modelos formales, son un conjunto de relaciones ya definidas y no necesariamente observables.
+
+Un modelo necesariamente implica algún grado de reducción. Por esto no son completamente exactos con problemas de la vida real, de hecho, se trata de una idealización.
+
+En términos lógicos los modelos pueden describir y/o predecir.
+
+**El problema del modelo formal en psicometría:**
+
+Los **modelos en disciplinas no sociales-humanas**, las denominadas “ciencias duras”, tienen la ventaja de que se origina en información observable, o que al menos puede ser medida con convenciones claras para todos (cms., kgs., años).
+
+En el **caso de la psicometría**, la información que nos interesa medir no es observable, sino que es una **convención o constructo** (por ejemplo: aprendizaje de matemática).
+
+**Constructo**: un atributo cuya presencia podemos inferir a partir de una serie de conductas (y actitudes, e incluso creencias).
+
+**Pasos para medir un constructo:**
+
+1.  Asignar un puntaje a una conducta observada.
+2.  Inferir un puntaje real a partir del puntaje observado.
+3.  Argumentar que el puntaje real refleja con certeza la “cantidad” de un constructo.
+
+El estudio de esta cadena de inferencias y sus implicancias mediante el uso de modelos formales, en este caso, matemáticos y estadísticos se realiza mediante las teorías psicométricas, que corresponden a modelos estadísticos formales que relacionan mediciones de constructos con mediciones de sus efectos observables.
+
+**En la actualidad existen dos teorías ampliamente utilizadas:**
+
+-   Teoría Clásica de Tests (TCT).
+-   Teoría de Respuesta al Ítem (IRT).

@@ -1,0 +1,161 @@
+---
+title: "Recuerdo matemático"
+---
+
+## MEDIDAS DE TENDENCIA CENTRAL
+
+### Media
+
+La **media** se obtiene sumando todos los valores de un conjunto de datos y dividiendo esta suma entre el número total de valores.
+
+$$
+Media: \bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}
+$$
+
+Donde:
+
+-   $\bar{x}$ = promedio.
+
+-   $x_i$ = puntaje del elemento i.
+
+-   $n$ = cantidad total de elementos.
+
+### Mediana
+
+La **mediana** es el valor que se encuentra en el medio de un conjunto de datos ordenados. Si el número de datos es impar, la mediana es el valor central. Si es par, la mediana es el promedio de los dos valores centrales. La mediana es útil porque no se ve afectada por valores atípicos.
+
+$$
+Mediana:\begin{cases} 
+\tilde{x} = x_{(\frac{n+1}{2})} & \text{si } n \text{ es impar} \\ 
+\tilde{x} = \frac{x_{(\frac{n}{2})} \ + \ x_{(\frac{n}{2} + 1)}}{2} & \text{si } n \text{ es par} 
+\end{cases}
+$$
+
+Donde:
+
+-   $\tilde{x}$ = mediana.
+-   $n$ = cantidad total de elementos.
+-   $()$ = implica buscar el elemento en la posición señalada dentro del paréntesis.
+
+### Moda
+
+La **moda** es el valor o valores que aparecen con mayor frecuencia en un conjunto de datos.
+
+$$
+\text{Moda: } x_{\text{moda}} = \{x_i: \text{frecuencia}(x_i) \text{ es máxima}\}
+$$
+
+Donde:
+
+-   $X_{\text{moda}}$ = moda.
+-   $\text{{}}$ = símbolo para una condición que se debe cumplir.
+
+## MEDIDAS DE DISPERSIÓN
+
+### Rango
+
+El **rango** mide la diferencia entre el valor máximo y el valor mínimo en un conjunto de datos. Es una medida simple de la dispersión.
+
+$$
+\text{Rango} = x_{\text{max}} - x_{\text{min}}
+$$
+
+Donde:
+
+-   $x_{\text{max}}$ = valor máximo.
+-   $x_{\text{min}}$ = valor mínimo.
+
+### Rango inter-cuartil
+
+El **rango inter-cuartil** (**IQR**) mide la dispersión de los datos en el rango entre el primer cuartil (Q1) y el tercer cuartil (Q3). Es útil para identificar la dispersión sin ser afectado por valores extremos.
+
+$$
+\text{IQR} = Q_{3} - Q_{1}
+$$
+
+Donde:
+
+-   $Q_{1}$ = primer cuartil (25% de los datos están por debajo).
+-   $Q_{3}$ = tercer cuartil (75% de los datos están por debajo).
+
+### Suma de cuadrados
+
+La **suma de cuadrados** (**SS**) es una medida que calcula la suma de las diferencias al cuadrado entre cada valor y la media. Es un componente esencial para calcular la varianza y la desviación estándar.
+
+$$
+\text{SS} = \sum_{i=1}^{n} (x_i - \bar{x})^2
+$$
+
+Donde:
+
+-   $x_i$ = valores de los datos.
+-   $\bar{x}$ = media de los datos.
+
+### Varianza
+
+La **varianza** (**σ2**) mide la dispersión o variabilidad de un conjunto de datos respecto a su media. Indica cuánto se desvían los datos individuales de la media en promedio.
+
++-------------------------------------------------------+------------------------------------------+
+| En función del promedio ($\bar{x}$) :                 | En función de la suma de cuadrados (SS): |
++=======================================================+:=========================================+
+| $$                                                    | $$                                       |
+| \sigma^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n} | \sigma^2 = \frac{\text{SS}}{n}           |
+| $$                                                    | $$                                       |
++-------------------------------------------------------+------------------------------------------+
+| Donde:                                                | Donde:                                   |
+|                                                       |                                          |
+| -   $\sigma^2$ = varianza.                            | -   $\text{SS}$ = suma de cuadrados.     |
+| -   $x_i$ = valores de los datos.                     | -   $n$ = número total de elementos.     |
+| -   $\bar{x}$ = media de los datos.                   |                                          |
+| -   $n$ = número total de elementos.                  |                                          |
++-------------------------------------------------------+------------------------------------------+
+
+**Caso especial** de varianza para **variables dicotómicas** donde se puede conceptualizar uno de los valores como “acierto” y el otro como “fracaso”.
+
+$$
+\sigma^2 = p(1-p)
+$$
+
+Donde:
+
+-   $\sigma^2$ = varianza.
+-   $p$ = probabilidad de éxito (ej. proporción de respuestas correctas).
+
+### Desviación estándar
+
+La **desviación estándar** ( $\sigma$ ) es la raíz cuadrada de la varianza. Proporciona una medida de dispersión que está en las mismas unidades que los datos originales, facilitando la interpretación.
+
++------------------------------------------------------------+-------------------------------------+--------------------------------------+
+| En f(x) del promedio                                       | En f(x) de la varianza              | En f(x) de la suma de cuadrados      |
++============================================================+=====================================+======================================+
+| $$                                                         | $$                                  | $$                                   |
+| \sigma = \sqrt{\frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n}} | \sigma = \sqrt{\sigma^2}            | \sigma = \sqrt{\frac{\text{SS}}{n}}  |
+| $$                                                         | $$                                  | $$                                   |
++------------------------------------------------------------+-------------------------------------+--------------------------------------+
+| Donde:                                                     | Donde:                              | Donde:                               |
+|                                                            |                                     |                                      |
+| -   $\sigma$ = desviación estándar.                        | -   $\sigma$ = desviación estándar. | -   $\text{SS}$ = suma de cuadrados. |
+| -   $x_i$ = valores de los datos.                          | -   $\sigma^2$ = varianza.          | -   $n$ = número total de elementos. |
+| -   $\bar{x}$ = media de los datos.                        |                                     |                                      |
+| -   $n$ = número total de elementos.                       |                                     |                                      |
++------------------------------------------------------------+-------------------------------------+--------------------------------------+
+
+## COVARIANZA
+
+La **covarianza** es una medida estadística que indica la dirección de la relación lineal entre dos variables aleatorias. En otras palabras, muestra cómo dos variables cambian juntas.
+
+-   **Covarianza positiva**: Las dos variables tienden a aumentar y disminuir juntas.
+-   **Covarianza negativa**: Una variable tiende a aumentar mientras que la otra tiende a disminuir.
+-   **Covarianza cercana a cero**: No hay una relación lineal clara entre las dos variables.
+
+Para dos variables X e Y:
+
+$$
+\text{Cov}(X, Y) = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar{X}) (Y_i - \bar{Y})
+$$
+
+Donde:
+
+-   $X_i$ e $Y_i$ son los valores individuales de las variables X e Y.
+-   $\bar{X}$ e $\bar{Y}$ son las medias de las variables X e Y.
+-   $n$ es el número de pares de datos.

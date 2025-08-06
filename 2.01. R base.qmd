@@ -1,0 +1,179 @@
+---
+title: "Introducción a Programación"
+subtitle: "Módulo "
+---
+
+```{r}
+#| label: cargar paquetes
+#| echo: FALSE
+#| output: FALSE
+
+library(tidyverse)
+```
+
+Esta inducción asume un conocimiento básico de R. Dejamos este breve recordatorio, sin embargo, si conoces R te dejamos a continuación algunos recursos que pueden servirte:
+
+-   Recurso 1.
+
+## Sintáxis básica de R
+
+### Normas
+
+Para crear elementos, sea cual sea utilizamos la norma:
+
+```{r}
+#| echo: TRUE
+nombre <- "valor"
+```
+
+Como todo lenguaje R posee funciones integradas que tienen la siguiente estructura:
+
+|                                                                                            |
+|------------------------------------------------------------------------|
+| **nombre_funcion**(parametro_1 = valor_1, parametro_2 = valor_2,...,parametro_n = valor_n) |
+
+Toda función posee 2 tipos de parámetros:
+
+-   **Parámetros** **obligatorios**: son parámetros que sin ellos la función no se ejecutará, son requeridos y mínimos para su funcionamiento.
+
+-   **Parámetros** **opcionales**: son parámetros que modifican detalles de la ejecución, pero no son necesarios.
+
+**Ejemplo:**
+
+La función boxplot tiene 1 parámetro obligatorio llamado "x" que requiere de una variable o formula que graficar dentro del boxplot.
+
+::: callout-tip
+-   boxplot 1 muestra el error que arroja R cuando falta un parámetro obligatorio.
+
+-   boxplot 2 muestra el resultado de la función boxplot con su parámetro obligatorio.
+
+-   boxplot 3 agrega un parámetro opcional que modifica la orientación del boxplot.
+:::
+
+::: panel-tabset
+## boxplot 1
+
+**aclaración**: "try()" es una función que le permite a R correr el código incluso si produce un error y se utiliza para poder mostrarlo.
+
+```{r}
+try(boxplot())
+```
+
+## boxplot 2
+
+```{r}
+boxplot(mtcars$mpg ~ mtcars$vs)
+```
+
+## boxplot 3
+
+```{r}
+boxplot(mtcars$mpg ~ mtcars$vs, horizontal = TRUE)
+```
+:::
+
+## Tipos de objetos R
+
+::: panel-tabset
+## Pregunta
+
+#### **¿Qué tipo de variables representa cada objeto creado en el código siguiente?**
+
+```{r}
+#| echo: TRUE
+#| output: FALSE
+
+objeto1 <- "Jerry"
+objeto2 <- 2
+objeto3 <- "3"
+objeto4 <- TRUE
+objeto5 <- 1.1
+objeto6 <- c(5, 4, 3)
+objeto7 <- list(5, 4, 3)
+objeto8 <- tibble(x = c(1,2), y = c("A", "B"))
+objeto9 <- print
+
+```
+
+## Respuestas
+
+```{r}
+#| echo: TRUE
+#| output: FALSE
+
+objeto1 <- "Jerry"                              # texto (string)
+objeto2 <- 2                                    # número entero (integer)
+objeto3 <- "3"                                  # número como texto
+objeto4 <- TRUE                                 # booleano (logical)
+objeto5 <- 1.1                                  # número decimal (double)
+objeto6 <- c(5, 4, 3)                           # vector con 3 elementos
+objeto7 <- list(5, 4, 3)                        # lista con 3 elementos
+objeto8 <- tibble(x = c(1,2), y = c("A", "B"))  # base de datos
+objeto9 <- print                                # función
+```
+:::
+
+## Tipos de variables
+
+-   **String**: texto, siempre se señala con "" o ''.
+
+-   **Numéricas**:
+
+    -   **Integer**: números entéros.
+
+    -   **Double**: enteros + decimales.
+
+-   **Logical**: valores TRUE o FALSE
+
+## Operaciones sobre variables
+
+::: panel-tabset
+Se utilizará de base la string "Hola UA"
+```{r}
+#| output: false
+#| echo: false
+
+library(stringr)
+string <- "Hola para UA"
+```
+
+# String
+
+### Eliminar valores
+
+```{r}
+#| output: true
+#| echo: true
+
+#La primera instancia:
+str_remove(string, "o")
+
+#Todas las instancias:
+str_remove_all(string, "a")
+```
+
+### Reemplazar valores
+
+```{r}
+#la primera instancia:
+str_replace(string, "a", "x")
+
+#Todas las instancias:
+str_replace_all(string, "a", "x")
+```
+
+### Separar valores
+
+```{r}
+str_split(string, " ")
+```
+
+# Numericas
+
+# Logical
+
+:::
+
+## Loops
+
+## Purrr

@@ -1,0 +1,60 @@
+---
+title: "Características de la unidad"
+subtitle: "Módulo UA"
+---
+
+## TRABAJO EN EQUIPO
+
+La unidad de análisis valora el trabajo en equipo, en concreto se espera que:
+
+-   Se pida ayuda cuando se requiera. En especial si crees que no comprendes en su totalidad un análisis o procedimiento.
+
+-   Se ofrezca ayuda cuando se esté en condiciones.
+
+Otro elemento importante es una actitud flexible y de apertura a hacer las cosas de forma distinta a la que personalmente creemos es la correcta. Muchas veces vamos a trabajar con códigos antiguos y/o otras variables que hagan que tengamos que abandonar la priorización de “el mejor código” y sopesar las distintas variables.
+
+## BUEN CÓDIGO
+
+Dicho lo anterior, se valora la creación y ejecución de **buen código**, cuyas características son:
+
+-   Permiten trabajo inter-conectado con compañeros.
+
+-   Es **trazable**: todo está plasmado en el código, no hay cosas hechas "por fuera“.
+
+-   Es **chequeable**: se puede revisar el paso a paso de forma fluida.
+
+-   Es **escalable**: lo que hoy hago para tres cosas, mañana funciona fácilmente con 8.
+
+-   Es **reutilizable**: aquello sobre lo que itera puede ser variado o cambiado para otros estudioso versiones del mismo estudio.
+
+## CARACTERÍSTICAS DEL EQUIPO DE PROGRAMADORES
+
+-   Tener un lenguaje común.
+
+-   Tener perspectiva.
+
+-   Documentar adecuadamente el proceso de los procedimientos (uso efectivo de comentarios).
+
+-   Priorizar diseño por sobre escritura de código.
+
+## RELACIÓN CON LAS OTRAS ÁREAS
+
+Típicamente en nuestro que hacer tenemos **2 principales relaciones**:
+
+-   **Los clientes internos**: cuando el cliente es de dentro de mide.
+
+-   **Los clientes externos**: cuando el cliente es externo a mide.
+
+## ESTRUCTURA DE CARPETAS
+
+-   **01.** **Insumos**: todo lo que nos entrega la contraparte.
+
+-   **02.** **Procedimientos**: donde generamos el código del análisis.
+
+    -   Procedimientos **10**: importación.
+
+    -   Procedimientos **20**: validación y acomodación.
+
+    -   Procedimientos **30**: Análisis.
+
+-   **03.** **Productos**: resultados y salidas.
